@@ -21,3 +21,8 @@ thinc==8.2.5
 thefuzz==0.19.0
 tqdm==4.64.0
 pydantic==2.11.7
+
+# Pin the native retrieval imports separately from the untouched HINT-SD runtime.
+transformers==4.57.3
+huggingface-hub==0.36.0
+pandas==2.2.3
