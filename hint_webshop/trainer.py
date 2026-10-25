@@ -87,7 +87,12 @@ class WebshopTrainer(VerifiedCheckpointMixin, OfficialTrainer):
             if not header or not raw.endswith(header):
                 raise ValueError('Recorded Student prefix does not end at the native assistant boundary')
             feedback = [{'role': 'user', 'content': 'Consider the following feedback to solve this step:\n\n' + item['content']}]
-            return raw[:-len(header)] + super()._apply_chat_template(feedback, add_generation_prompt)
+            # Rendering feedback alone can insert a SECOND implicit default system message.
+            # Derive only the appended user-feedback suffix from one shared native probe.
+            combined = super()._apply_chat_template(probe + feedback, add_generation_prompt)
+            if not combined.startswith(closed):
+                raise ValueError('Unsupported non-prefix-stable feedback chat template')
+            return raw[:-len(header)] + combined[len(closed):]
         return super()._apply_chat_template(messages, add_generation_prompt)
 
     def evaluate(self, eval_dataset=None, ignore_keys=None, metric_key_prefix='eval'):

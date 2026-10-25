@@ -355,3 +355,24 @@ def test_no_private_dependencies_or_absolute_author_paths():
             assert not re.search(r'(?<!\w)[A-Za-z]:[/\\]', raw), str(path)
             assert 'connect.' + 'seetacloud.com' not in raw
             assert '.ssh/' not in raw and 'BEGIN ' + 'PRIVATE KEY' not in raw
+
+
+def test_feedback_does_not_inject_an_extra_implicit_system_message():
+    class Base:
+        def _apply_chat_template(self,messages,add_generation_prompt):
+            result = 'IMPLICIT-DEFAULT-SYSTEM\n'
+            result += ''.join('<|im_start|>'+item['role']+'\n'+item['content']+'<|im_end|>\n' for item in messages)
+            return result+('<|im_start|>assistant\n' if add_generation_prompt else '')
+    cls = selected_methods(ROOT/'hint_webshop/trainer.py','WebshopTrainer',
+        ['_apply_chat_template','_build_bfcl_per_step_teacher_prompt'],
+        bases=[ast.Name(id='Base',ctx=ast.Load())],namespace={'Base':Base})
+    harness=cls()
+    harness.processing_class=SimpleNamespace(decode=lambda ids,**kwargs:''.join(map(chr,ids)))
+    actual='truncated-visible-history<|im_end|>\n<|im_start|>assistant\n'
+    episode=SimpleNamespace(steps=[SimpleNamespace(agent_metadata={'prompt_token_ids':list(map(ord,actual))})])
+    message=harness._build_bfcl_per_step_teacher_prompt(episode,0,'CORRECT-THIS-STEP')
+    teacher=harness._apply_chat_template(message,True)
+    assert teacher.startswith(actual[:-len('<|im_start|>assistant\n')])
+    assert 'CORRECT-THIS-STEP' in teacher
+    assert 'IMPLICIT-DEFAULT-SYSTEM' not in teacher
+    assert teacher.count('<|im_start|>user\n') == 1
