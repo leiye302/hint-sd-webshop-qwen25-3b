@@ -1,0 +1,852 @@
+{
+  "schema": 1,
+  "protocol": "webshop-balanced140-disjoint-v1",
+  "count": 140,
+  "batch_size": 140,
+  "base_seed": 1000,
+  "upstream_commit": "29dcb12a55d8fc17ba6ae03fd0a69048f43051f3",
+  "assets_lock_sha256": "f8313d36b83df707e2f44b85fd2a07aa765ad82e3ee9cc9f26620e92e34cc81a",
+  "task_split_sha256": "6055ef05de812132425060ad959d11bd6ca1cbe40a94f9a195f9f0647ae9547c",
+  "selection": [
+    {
+      "worker": 0,
+      "task_id": "bb89aaa8983ad6e8991d18ce2a10ff140e48df992a6e77901fcaf12454bb628e",
+      "worker_seed": 1000,
+      "goal_index": 0
+    },
+    {
+      "worker": 1,
+      "task_id": "33432ec7e8a8c3480e2f0bae29b29bb1344662d8ff868692fe091ed29c875182",
+      "worker_seed": 1001,
+      "goal_index": 1
+    },
+    {
+      "worker": 2,
+      "task_id": "f056bd10a273e5d7fc4cd8be06cf9a69efd6efcd0b697730f3bfc369de46d9b4",
+      "worker_seed": 1002,
+      "goal_index": 2
+    },
+    {
+      "worker": 3,
+      "task_id": "9085996495327b83bba3c7745f80a2cc00fcc02ee9d1eb3a3b4f121256e4a461",
+      "worker_seed": 1003,
+      "goal_index": 3
+    },
+    {
+      "worker": 4,
+      "task_id": "03a6a309ae6bb01ba00882469990e7dd560c7e1f1a13a7756cfcc48fdc471d11",
+      "worker_seed": 1004,
+      "goal_index": 4
+    },
+    {
+      "worker": 5,
+      "task_id": "a4e426647c0114db9a485d3282ce8ae5935f10e04425d4dc4a402ad8b2c671c4",
+      "worker_seed": 1005,
+      "goal_index": 5
+    },
+    {
+      "worker": 6,
+      "task_id": "b45480365b764a81d907f4b13a451d0eb64c163e9524fdb4d0e5e0f4bc5af292",
+      "worker_seed": 1006,
+      "goal_index": 6
+    },
+    {
+      "worker": 7,
+      "task_id": "e8c06fd93e19ebc9b2d731b3e92ed8a38f5bea73fa047f8532f94583b4199c68",
+      "worker_seed": 1007,
+      "goal_index": 7
+    },
+    {
+      "worker": 8,
+      "task_id": "bf3178887011965312038caa6823e75ffe7b21f3ba7ec3d2159ab7880a1d0432",
+      "worker_seed": 1008,
+      "goal_index": 8
+    },
+    {
+      "worker": 9,
+      "task_id": "57d19edaeea8b06e9c10550e50203556dec28a8caecc4ac1a4795d5d96bb1261",
+      "worker_seed": 1009,
+      "goal_index": 9
+    },
+    {
+      "worker": 10,
+      "task_id": "cd9901f32278358011834c4ea67d0c68e52b57bc3774a626fb89504915e8e2a2",
+      "worker_seed": 1010,
+      "goal_index": 10
+    },
+    {
+      "worker": 11,
+      "task_id": "b7096422ce5d524fb3726a67fe4518ca2420012e6e9d8740c1a31d6b0e6c1cc9",
+      "worker_seed": 1011,
+      "goal_index": 11
+    },
+    {
+      "worker": 12,
+      "task_id": "382c23999973a77911a0962c9c9501b7f33bf51e59e0e8334f84c216cc31223c",
+      "worker_seed": 1012,
+      "goal_index": 12
+    },
+    {
+      "worker": 13,
+      "task_id": "19edcdba714a0ed916a29ca985f927ab7bcd3fa6ff3210a9b1ec9ae3db9a69e2",
+      "worker_seed": 1013,
+      "goal_index": 13
+    },
+    {
+      "worker": 14,
+      "task_id": "b3fa409154d27a9289ba51e3f539f9a6bdb068234b7a0cef2375b08b15d67cbd",
+      "worker_seed": 1014,
+      "goal_index": 14
+    },
+    {
+      "worker": 15,
+      "task_id": "139563d19e3d1d5297e3ca1dc9d188ca217b5a61d9c69e29d7b043f9dcb6f45b",
+      "worker_seed": 1015,
+      "goal_index": 15
+    },
+    {
+      "worker": 16,
+      "task_id": "a62412b91c9868a9851343cb5a2cdeb2faa1acfc865713af9b80dac62ff16055",
+      "worker_seed": 1016,
+      "goal_index": 16
+    },
+    {
+      "worker": 17,
+      "task_id": "a9b3170c617136ac6367350260acd6f2d01a3911800a3f67aae1058086575290",
+      "worker_seed": 1017,
+      "goal_index": 17
+    },
+    {
+      "worker": 18,
+      "task_id": "6331d77868ffaca4ebaf7ee40364c5db84e80835f9bf08a39c4f019c1a434796",
+      "worker_seed": 1018,
+      "goal_index": 18
+    },
+    {
+      "worker": 19,
+      "task_id": "806611822273146b36f8088eb94a10975f6d11e47eacc52d80f06547e6a9db9c",
+      "worker_seed": 1019,
+      "goal_index": 19
+    },
+    {
+      "worker": 20,
+      "task_id": "1bed295882b8e3595dfdbd4e36a0b37fe771530d9ae558619a27481436dcae32",
+      "worker_seed": 1020,
+      "goal_index": 20
+    },
+    {
+      "worker": 21,
+      "task_id": "50c24438ec234b1d28b6b2f570ff48d795b04a950c1cfdcf9629c3bf0a3a4a5f",
+      "worker_seed": 1021,
+      "goal_index": 21
+    },
+    {
+      "worker": 22,
+      "task_id": "5fb3f2278207471228f635ce1c64985f63e6c67eb5dbb39f4e398effcb2ca2f6",
+      "worker_seed": 1022,
+      "goal_index": 22
+    },
+    {
+      "worker": 23,
+      "task_id": "2f3d7cc5c6567b20333541271b5cd7990c9b0950f78f4f172fec3df62d2ee71f",
+      "worker_seed": 1023,
+      "goal_index": 23
+    },
+    {
+      "worker": 24,
+      "task_id": "da966a2097d964ca585ce5c6e84eb4179b6a35ec073f0383313ac12b9e7d8da3",
+      "worker_seed": 1024,
+      "goal_index": 24
+    },
+    {
+      "worker": 25,
+      "task_id": "59740e44b73ff891787bde4b4606502c13e6833020f0434dc8968cf69b84672c",
+      "worker_seed": 1025,
+      "goal_index": 25
+    },
+    {
+      "worker": 26,
+      "task_id": "264589fad4c33a8173b60d63ba3b0e12588eb3de486ef816beeceb47f6461e4c",
+      "worker_seed": 1026,
+      "goal_index": 26
+    },
+    {
+      "worker": 27,
+      "task_id": "a92c07540a52a94f1039d83e3905e07f967013577364d8ffbb16eb8864437d5d",
+      "worker_seed": 1027,
+      "goal_index": 27
+    },
+    {
+      "worker": 28,
+      "task_id": "b261f048fd09eb1b88cf31bb7147186c2a01f9012e3a112278f570fe67a0e087",
+      "worker_seed": 1028,
+      "goal_index": 28
+    },
+    {
+      "worker": 29,
+      "task_id": "35a86525d4cd4f21b926df120a9d41a8fff2a485649644a182644b9728ef8b42",
+      "worker_seed": 1029,
+      "goal_index": 29
+    },
+    {
+      "worker": 30,
+      "task_id": "94d59f9288a19f432bcdb5665f0208a8ba3fcc6b36ab22c950b2176960cf38a9",
+      "worker_seed": 1030,
+      "goal_index": 30
+    },
+    {
+      "worker": 31,
+      "task_id": "3da8bfd2102c34e800fd2af3a0dcc26143eac7e76d750c819489316f314eb020",
+      "worker_seed": 1031,
+      "goal_index": 31
+    },
+    {
+      "worker": 32,
+      "task_id": "46ed4d804bfde5ed91a1147286401c04eaf0ce9ec91364a6686ac7ec9752ebb6",
+      "worker_seed": 1032,
+      "goal_index": 32
+    },
+    {
+      "worker": 33,
+      "task_id": "3deede5ad5c66898417253695e0ea8959528d3c55e24d31824a109ff4fdc4174",
+      "worker_seed": 1033,
+      "goal_index": 33
+    },
+    {
+      "worker": 34,
+      "task_id": "683253fd193beec9d6b039e3b57fffba6e8ffd90399768999a8fff028325f324",
+      "worker_seed": 1034,
+      "goal_index": 34
+    },
+    {
+      "worker": 35,
+      "task_id": "9463ef3bcae7d4b11bb705ac03c90fc24866cccbaa1daf30c8ed8f5a8c08da06",
+      "worker_seed": 1035,
+      "goal_index": 35
+    },
+    {
+      "worker": 36,
+      "task_id": "bc6ff8300d4d65f3b5930160d238a03e21bd6a9764473bddd5bb594daa9e49a0",
+      "worker_seed": 1036,
+      "goal_index": 36
+    },
+    {
+      "worker": 37,
+      "task_id": "a2650fd53a468b970b5935384ead13bad18400ee735d0cf28479123dff6102aa",
+      "worker_seed": 1037,
+      "goal_index": 37
+    },
+    {
+      "worker": 38,
+      "task_id": "ef702c74c2bbaaa968394c938f96f72c4c4f57b18d95d9cb10ebf83838f05ccb",
+      "worker_seed": 1038,
+      "goal_index": 38
+    },
+    {
+      "worker": 39,
+      "task_id": "2cdbb59c5bec1df4b2e3ec9268e3d47b1c71325e6a886933b527052a302f303d",
+      "worker_seed": 1039,
+      "goal_index": 39
+    },
+    {
+      "worker": 40,
+      "task_id": "e00c029ae73fcb95f422660afe3d11486d2387c30fcd45a6a81fa1bd0c9fe425",
+      "worker_seed": 1040,
+      "goal_index": 40
+    },
+    {
+      "worker": 41,
+      "task_id": "44d4f8cd0da0dbaa6695536744fb856388fcce683e4323243c0ebc6603a7b77a",
+      "worker_seed": 1041,
+      "goal_index": 41
+    },
+    {
+      "worker": 42,
+      "task_id": "e69cdc795dd1fa0dcd3c382349c88ce747df72949aa92bc865f4e61e0dd0a441",
+      "worker_seed": 1042,
+      "goal_index": 42
+    },
+    {
+      "worker": 43,
+      "task_id": "ed40d8f63aa9c655cff70d35c6c700304aa961de8a0910947923bd68d71d70f0",
+      "worker_seed": 1043,
+      "goal_index": 43
+    },
+    {
+      "worker": 44,
+      "task_id": "a8966367e7a883479e42ad183f706543d832723567d567a1058a5cf26f06a619",
+      "worker_seed": 1044,
+      "goal_index": 44
+    },
+    {
+      "worker": 45,
+      "task_id": "7cff478771df2076b8ddb806635ff1a599c1978696c29fcaa4b465d377ee2d28",
+      "worker_seed": 1045,
+      "goal_index": 45
+    },
+    {
+      "worker": 46,
+      "task_id": "3b2b771734d81a1bf9c89e7e916c9d6e6c5e20330ff1a1910cd71b0e649160e0",
+      "worker_seed": 1046,
+      "goal_index": 46
+    },
+    {
+      "worker": 47,
+      "task_id": "65fdad7e722bea3aee141682542d88442520410301859e50a6ca975c9427a38e",
+      "worker_seed": 1047,
+      "goal_index": 47
+    },
+    {
+      "worker": 48,
+      "task_id": "5013705ba0f274e8475fdec9cf6e1c1f38b8a742e85ac4d686c8c98eda0cc770",
+      "worker_seed": 1048,
+      "goal_index": 48
+    },
+    {
+      "worker": 49,
+      "task_id": "99f80f75b3fc0f4e5c34c4a2de4892cca11ab1c675324b0c4e2c053a5e1dbef0",
+      "worker_seed": 1049,
+      "goal_index": 49
+    },
+    {
+      "worker": 50,
+      "task_id": "c423f9e6503bfd3fbc3ed69f7ef1cebbb9d28ec08bd40040bde402dcc7166808",
+      "worker_seed": 1050,
+      "goal_index": 50
+    },
+    {
+      "worker": 51,
+      "task_id": "d2fda6f0e65fbc128e5ba4901f0191f196f0cbb9602267acf727dc819ac741c8",
+      "worker_seed": 1051,
+      "goal_index": 51
+    },
+    {
+      "worker": 52,
+      "task_id": "19940c76adf75384e0d2852e3cb1353767f6838c714090369d93c79b1bc989d5",
+      "worker_seed": 1052,
+      "goal_index": 52
+    },
+    {
+      "worker": 53,
+      "task_id": "851016d7f84f7e98383eee67df0f3faca68cead4644f57aa6252d85bee71e898",
+      "worker_seed": 1053,
+      "goal_index": 53
+    },
+    {
+      "worker": 54,
+      "task_id": "bd7b1c16a2b9a1fa1f15ab921f4938abcb7424e2cadb84697423fd8541009cc6",
+      "worker_seed": 1054,
+      "goal_index": 54
+    },
+    {
+      "worker": 55,
+      "task_id": "e8fbe1bfe77fe91a5184c6dbbc7be1ed6d8fa92dcbecdfcfdb8d11884df40aa9",
+      "worker_seed": 1055,
+      "goal_index": 55
+    },
+    {
+      "worker": 56,
+      "task_id": "4424cd75ae1f6b037e7b42bf92ef4e039c8348f951e7aab58419a25f4252c422",
+      "worker_seed": 1056,
+      "goal_index": 56
+    },
+    {
+      "worker": 57,
+      "task_id": "b5930d419ccdcfb972a78e9c505be9bc71ce67f2da265a769bd546ec19dd2bb8",
+      "worker_seed": 1057,
+      "goal_index": 57
+    },
+    {
+      "worker": 58,
+      "task_id": "d51c2c096308b3f79ef15f4f247ec62a15c026c9833ec2b862c3eb8e0e64ed61",
+      "worker_seed": 1058,
+      "goal_index": 58
+    },
+    {
+      "worker": 59,
+      "task_id": "5385fe3f2c243bf55019274a99a0dfd8e4b7c54bfddae52b8be01e96f59b5a98",
+      "worker_seed": 1059,
+      "goal_index": 59
+    },
+    {
+      "worker": 60,
+      "task_id": "83ff07539c3d00bb2b91d20db798cd677b67c3427fb8d91e5e34fcda4d197180",
+      "worker_seed": 1060,
+      "goal_index": 60
+    },
+    {
+      "worker": 61,
+      "task_id": "de20f675ebed9ef3f108c31c8ad19b48f37374b06aeb1e84ff1ae9f6bc06936d",
+      "worker_seed": 1061,
+      "goal_index": 61
+    },
+    {
+      "worker": 62,
+      "task_id": "16052192c456a4d360d1922e1bcf6c40c76f1f79acce6c77694e4bf1aff9065d",
+      "worker_seed": 1062,
+      "goal_index": 62
+    },
+    {
+      "worker": 63,
+      "task_id": "2fc599d9bacb579911cb2273d9780f5c0319772ec0b32abd6ca8c5012b6fe4cb",
+      "worker_seed": 1063,
+      "goal_index": 63
+    },
+    {
+      "worker": 64,
+      "task_id": "0087fc6e0d8837f4f85d999c32bf2506b073d6f1d12b76bd59e8b39648025b60",
+      "worker_seed": 1064,
+      "goal_index": 64
+    },
+    {
+      "worker": 65,
+      "task_id": "c9c136137bc691b4745ebcdaa06b214cab7d491b5e0f797102458b0ed2f89023",
+      "worker_seed": 1065,
+      "goal_index": 65
+    },
+    {
+      "worker": 66,
+      "task_id": "e19da8c6279c0d3418343bf44542b11cddf1ee3842c469bb8e49c7c3cde0b284",
+      "worker_seed": 1066,
+      "goal_index": 66
+    },
+    {
+      "worker": 67,
+      "task_id": "65ec1c9b85d4b43847f3c12521f07faa94324a92aa3d5996d301b4537e0d8248",
+      "worker_seed": 1067,
+      "goal_index": 67
+    },
+    {
+      "worker": 68,
+      "task_id": "2184f887f0a3bd742e1d0bfd2e7ee957df386b4c48c29fcdb4b559c33f03e814",
+      "worker_seed": 1068,
+      "goal_index": 68
+    },
+    {
+      "worker": 69,
+      "task_id": "70ce0d6c1d58bd671c8f28a8c0eacfb1f6664efe978412c18aa64541536fa90f",
+      "worker_seed": 1069,
+      "goal_index": 69
+    },
+    {
+      "worker": 70,
+      "task_id": "8323cb965159a4606454cf0b96df6c939624bb921ca34c69aa0fc9d5fca7c399",
+      "worker_seed": 1070,
+      "goal_index": 70
+    },
+    {
+      "worker": 71,
+      "task_id": "86cc4b0856623fc61f88fa2d51cf94242a97cea1c47c5ef9876e829cc82a7bab",
+      "worker_seed": 1071,
+      "goal_index": 71
+    },
+    {
+      "worker": 72,
+      "task_id": "944fde9f5b7552777d0cbcec896632cd07f1b3089a8d5eda04347486a6ad2a9f",
+      "worker_seed": 1072,
+      "goal_index": 72
+    },
+    {
+      "worker": 73,
+      "task_id": "728f7bf09a117f527e1e563b9bb2aa82527ca2e9bb207d00bd4e81acd8309f93",
+      "worker_seed": 1073,
+      "goal_index": 73
+    },
+    {
+      "worker": 74,
+      "task_id": "d7b4949d24a48f0967a6557bbfe0185d37407cff7df282edc4dfd1208ea7ae58",
+      "worker_seed": 1074,
+      "goal_index": 74
+    },
+    {
+      "worker": 75,
+      "task_id": "e96d6ce1a63881c3057b5cbc7261773f49c559c254c280b5373e4b5175bc40ac",
+      "worker_seed": 1075,
+      "goal_index": 75
+    },
+    {
+      "worker": 76,
+      "task_id": "c5b2377d237860e7bb3760ba3098108f2608b6d34f138206334ad8147f0a8746",
+      "worker_seed": 1076,
+      "goal_index": 76
+    },
+    {
+      "worker": 77,
+      "task_id": "f21adb31d31872442bc6bef7db6b7f5264267d19ee77dc2427fc521530f007c7",
+      "worker_seed": 1077,
+      "goal_index": 77
+    },
+    {
+      "worker": 78,
+      "task_id": "c7207d1a6c3ea17ffe8869fb77ed1cd21d7c62369c14926d2227fc4a9dfb0286",
+      "worker_seed": 1078,
+      "goal_index": 78
+    },
+    {
+      "worker": 79,
+      "task_id": "a886ba757857bf6abeaeb1704abd3e368691bd114fc0fef1a8335dff06b44057",
+      "worker_seed": 1079,
+      "goal_index": 79
+    },
+    {
+      "worker": 80,
+      "task_id": "33030eaa47b0ffca042bb1194a7eb8f79ce17931b82ab7e6f6477a22c8265e43",
+      "worker_seed": 1080,
+      "goal_index": 80
+    },
+    {
+      "worker": 81,
+      "task_id": "e03961720abae19e0752696f3282840806b250e57faa095b90b1eb859e212a75",
+      "worker_seed": 1081,
+      "goal_index": 81
+    },
+    {
+      "worker": 82,
+      "task_id": "ead51218592e2433c2d19a27a044bf94c6fe68b2baf3a09b1127a163372ce469",
+      "worker_seed": 1082,
+      "goal_index": 82
+    },
+    {
+      "worker": 83,
+      "task_id": "70db362ff7e7e1c095cd4e522bc2345817a442753159fd66e262398cec9e6563",
+      "worker_seed": 1083,
+      "goal_index": 83
+    },
+    {
+      "worker": 84,
+      "task_id": "9cafee725ba548b2290cfeab574a2e065d98b1cbee01d37d4efe383329349391",
+      "worker_seed": 1084,
+      "goal_index": 84
+    },
+    {
+      "worker": 85,
+      "task_id": "2f952050b8d3a0c583027d1f23bdbf8739467d432dcf6aa1401a949fcbb854e8",
+      "worker_seed": 1085,
+      "goal_index": 85
+    },
+    {
+      "worker": 86,
+      "task_id": "4d1a5d3645ed5cef59f6c0a2f97aa29d3f1514479722c166d03bc7fc9016e7ae",
+      "worker_seed": 1086,
+      "goal_index": 86
+    },
+    {
+      "worker": 87,
+      "task_id": "e36cd1857fcc0c953b27655c32ea5c2336ec8e49a8ed9a66bf9e19f03bcbba67",
+      "worker_seed": 1087,
+      "goal_index": 87
+    },
+    {
+      "worker": 88,
+      "task_id": "bdd53c25a8a2c1924cd842f50165ca1331367879eb8cf77f56a6961c82bd5b75",
+      "worker_seed": 1088,
+      "goal_index": 88
+    },
+    {
+      "worker": 89,
+      "task_id": "c5d9ad486676ac7215506c01bd346f1b7be0b301418f2b543fbbbb3b8e32fa20",
+      "worker_seed": 1089,
+      "goal_index": 89
+    },
+    {
+      "worker": 90,
+      "task_id": "ad8df10fbb4fd643bf434951a41ab05f033481f9a24b17eff87d5b8834520c13",
+      "worker_seed": 1090,
+      "goal_index": 90
+    },
+    {
+      "worker": 91,
+      "task_id": "50212f8cd167389739c287738d9613cfbe58f3f08bdd47e5ec032d3d5895cce2",
+      "worker_seed": 1091,
+      "goal_index": 91
+    },
+    {
+      "worker": 92,
+      "task_id": "aa9720696e8301ca152b78d127c666ecacba4a524f3dbe6ec8e5774c3ed0783f",
+      "worker_seed": 1092,
+      "goal_index": 92
+    },
+    {
+      "worker": 93,
+      "task_id": "c92fd584f553b76b22d86fe5273a7374ee40db667f2c017980fe0bc530896cc0",
+      "worker_seed": 1093,
+      "goal_index": 93
+    },
+    {
+      "worker": 94,
+      "task_id": "55a70c84722aa5497c5b2fb7b7d189349fc8efe839459d838a660bf5ec16091f",
+      "worker_seed": 1094,
+      "goal_index": 94
+    },
+    {
+      "worker": 95,
+      "task_id": "db2cdb519b1f9644cb04a345c5e12a480259382558a47f0863ae1dc23555178a",
+      "worker_seed": 1095,
+      "goal_index": 95
+    },
+    {
+      "worker": 96,
+      "task_id": "a1ece9fb09f4b1780e73e86cdaa0287609e1f86da4115626644c09b1b4d3337f",
+      "worker_seed": 1096,
+      "goal_index": 96
+    },
+    {
+      "worker": 97,
+      "task_id": "2ebc1f166867384ebc2241e78afe6b6b544538e46162726c54c5f56e367f81e3",
+      "worker_seed": 1097,
+      "goal_index": 97
+    },
+    {
+      "worker": 98,
+      "task_id": "e17b27c60954397577db9e4c28f5e1ffa90939660b63b31f1f8c66b8c74c46ec",
+      "worker_seed": 1098,
+      "goal_index": 98
+    },
+    {
+      "worker": 99,
+      "task_id": "50060ae349e4725d942b250054a0847ec9c07cf39df1571982f74634d9a7f48c",
+      "worker_seed": 1099,
+      "goal_index": 99
+    },
+    {
+      "worker": 100,
+      "task_id": "64c2ecadeb4ffb345e7b0c389cefb4e163e082ae7905ba26e661cad05784a84a",
+      "worker_seed": 1100,
+      "goal_index": 100
+    },
+    {
+      "worker": 101,
+      "task_id": "e876d3d5ea28c73b732b864528ad68d625e276ba37368af2dcc5f20330c8ab23",
+      "worker_seed": 1101,
+      "goal_index": 101
+    },
+    {
+      "worker": 102,
+      "task_id": "eecee3c8b07b2b331a092a9e72bb44c1a2811a029e0b72e04e4203241b2ce6fc",
+      "worker_seed": 1102,
+      "goal_index": 102
+    },
+    {
+      "worker": 103,
+      "task_id": "c09afd4c678d5418e9515f53605b211f3722bae7f94a29da9d4daf2ca0e7366d",
+      "worker_seed": 1103,
+      "goal_index": 103
+    },
+    {
+      "worker": 104,
+      "task_id": "718e3e7388d9f3323cd4873894597b06c6a89701ac7a76893ed61363c18a4c72",
+      "worker_seed": 1104,
+      "goal_index": 104
+    },
+    {
+      "worker": 105,
+      "task_id": "0a3d950b35f8ce3eea5d33e51cf2efff25000054664eee26a2be20a87f9a48bb",
+      "worker_seed": 1105,
+      "goal_index": 105
+    },
+    {
+      "worker": 106,
+      "task_id": "8bf0df1fc91ef9b5b417b5a92adfdc9784610f47cfb03a746c183552e16e3fbd",
+      "worker_seed": 1106,
+      "goal_index": 106
+    },
+    {
+      "worker": 107,
+      "task_id": "532c13a8a4e5542b61dc322cc0fddbb2d9aedd2cb3257f5dc2df80f092dcbef3",
+      "worker_seed": 1107,
+      "goal_index": 107
+    },
+    {
+      "worker": 108,
+      "task_id": "9e5bac59cf714b2b1f78c447d196ce673155845fe6cb9c9a7463a4eff2d03c7a",
+      "worker_seed": 1108,
+      "goal_index": 108
+    },
+    {
+      "worker": 109,
+      "task_id": "f5f17c510ea2db4f900a5e4f8367599969c9c42fe1200bc1d8bc4def1e670da3",
+      "worker_seed": 1109,
+      "goal_index": 109
+    },
+    {
+      "worker": 110,
+      "task_id": "cfe8191bf0f2007da6f1086f7ba0fe3673a600a8ed8ebf11651c1e9199b260ee",
+      "worker_seed": 1110,
+      "goal_index": 110
+    },
+    {
+      "worker": 111,
+      "task_id": "456ed486a635b3ce81ab4006edfcbc9672b9196cc35bab322d54865a91fc664f",
+      "worker_seed": 1111,
+      "goal_index": 111
+    },
+    {
+      "worker": 112,
+      "task_id": "d9c9b91e74776a6a85427f4c18b8ea2b9958cfd8f76cedba8287f0aa7ae75c92",
+      "worker_seed": 1112,
+      "goal_index": 112
+    },
+    {
+      "worker": 113,
+      "task_id": "100153ae802fe491128dac00357f12dda2f4b0e26b2ed72a92f8b40bdc2bff12",
+      "worker_seed": 1113,
+      "goal_index": 113
+    },
+    {
+      "worker": 114,
+      "task_id": "4a9c61b3016751ba102fc726adb3d406c7f4b04da5ab87c8e62d5b2d2e1b70b8",
+      "worker_seed": 1114,
+      "goal_index": 114
+    },
+    {
+      "worker": 115,
+      "task_id": "510b58a6a5816413f496aaeb64444bd2299c27a089b9133b4a8ca208bf637d76",
+      "worker_seed": 1115,
+      "goal_index": 115
+    },
+    {
+      "worker": 116,
+      "task_id": "bdc2718e2a6e5bca2fe2736a326a5eae354f148e97005a0f04fb4bc4c6c8c412",
+      "worker_seed": 1116,
+      "goal_index": 116
+    },
+    {
+      "worker": 117,
+      "task_id": "08078b3c969c319f9e7ddaba01ed81d9358de83563409a2421ec215f06b98177",
+      "worker_seed": 1117,
+      "goal_index": 117
+    },
+    {
+      "worker": 118,
+      "task_id": "59c246c5ba75f03b529809531c9652d99a5e689dc01cd8972cb721fc4784085a",
+      "worker_seed": 1118,
+      "goal_index": 118
+    },
+    {
+      "worker": 119,
+      "task_id": "a851381a144f4d29bdd292a660797ed077c4167d8618005823f4b282875412c3",
+      "worker_seed": 1119,
+      "goal_index": 119
+    },
+    {
+      "worker": 120,
+      "task_id": "83457461d6e40cc60003a87080b445a6a62f25a06a9309d86f873ff6d0758661",
+      "worker_seed": 1120,
+      "goal_index": 120
+    },
+    {
+      "worker": 121,
+      "task_id": "0dd5e1df460829f5d1546870f86ef90427ed01d9f4f1e7b740004393ed8ab69d",
+      "worker_seed": 1121,
+      "goal_index": 121
+    },
+    {
+      "worker": 122,
+      "task_id": "32369fb132602b0c3aaf7c86ce3e853b7df6a67949d2846e79ba7af7ce2959b3",
+      "worker_seed": 1122,
+      "goal_index": 122
+    },
+    {
+      "worker": 123,
+      "task_id": "161274940329802cc681e4caf6c3a13ba1852a767e0c94c895376d27877ee7e6",
+      "worker_seed": 1123,
+      "goal_index": 123
+    },
+    {
+      "worker": 124,
+      "task_id": "3d6305c4d91c8a38e737ed9461fa4b54a388af461d04ad48e2aa921b4607e272",
+      "worker_seed": 1124,
+      "goal_index": 124
+    },
+    {
+      "worker": 125,
+      "task_id": "a192a77494431829447da81a4d72634b5cd05246fa7131414ec9fa90815e2320",
+      "worker_seed": 1125,
+      "goal_index": 125
+    },
+    {
+      "worker": 126,
+      "task_id": "50279484815e2fb3588738880b906d6ed213490526fa1c110d6112701ec578c9",
+      "worker_seed": 1126,
+      "goal_index": 126
+    },
+    {
+      "worker": 127,
+      "task_id": "ae4ac229e7c223ec2252bbccbef1ddf0137eb69878f1b36cea1c798191923de7",
+      "worker_seed": 1127,
+      "goal_index": 127
+    },
+    {
+      "worker": 128,
+      "task_id": "40997c7849664696ea2c81c28acc40c77a8f599707f46b62ba357b7e18a2dce8",
+      "worker_seed": 1128,
+      "goal_index": 128
+    },
+    {
+      "worker": 129,
+      "task_id": "f6e15661b0cdc72a0a790a3df90172f47efbc2f30233eb43a4a33a87aeb228a0",
+      "worker_seed": 1129,
+      "goal_index": 129
+    },
+    {
+      "worker": 130,
+      "task_id": "17fa4a07927748320427e608f3f3757f73dd7d347bd3f278fed5c1705568883a",
+      "worker_seed": 1130,
+      "goal_index": 130
+    },
+    {
+      "worker": 131,
+      "task_id": "114a9ae6da2f8261b7cf2a2f28c5cfae656e5343045563986c18238e7342a4ad",
+      "worker_seed": 1131,
+      "goal_index": 131
+    },
+    {
+      "worker": 132,
+      "task_id": "99d19e1d74da5c11574c3fe857a2fdb1959b713e55d62adf78f42febd1726fd8",
+      "worker_seed": 1132,
+      "goal_index": 132
+    },
+    {
+      "worker": 133,
+      "task_id": "1671e252fa9322041c5f4c350dea946bccb80ed8db2feb8b6a6b98c24cce0f6e",
+      "worker_seed": 1133,
+      "goal_index": 133
+    },
+    {
+      "worker": 134,
+      "task_id": "29bf62b691a237c648e7b4cb5ccb1b656315fffb11c09ad363ed6bef12f44904",
+      "worker_seed": 1134,
+      "goal_index": 134
+    },
+    {
+      "worker": 135,
+      "task_id": "52b7b2d6cd5f78407abb793eed1fca82ecea026be143083ebc478b6ffa9604a9",
+      "worker_seed": 1135,
+      "goal_index": 135
+    },
+    {
+      "worker": 136,
+      "task_id": "7b8ccc2aeb1eb1e2a1dc1c679b68dc02ea7a8f12f9b2641e5dc92690d1eaed4d",
+      "worker_seed": 1136,
+      "goal_index": 136
+    },
+    {
+      "worker": 137,
+      "task_id": "9d32a42fc61b089f3c86a1f7a29027fa8980937265d1dc6323a121cb037469cd",
+      "worker_seed": 1137,
+      "goal_index": 137
+    },
+    {
+      "worker": 138,
+      "task_id": "31255dd11a597bcc6e15eaa9301299b1a341b83564eb888a5b72ace37afceb32",
+      "worker_seed": 1138,
+      "goal_index": 138
+    },
+    {
+      "worker": 139,
+      "task_id": "a6de824e1c24ac8726b2e23d2e5ac3c5178492b7429c2beb9eb76f4938d31094",
+      "worker_seed": 1139,
+      "goal_index": 139
+    }
+  ]
+}

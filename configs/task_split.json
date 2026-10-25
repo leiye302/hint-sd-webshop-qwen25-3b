@@ -1,0 +1,1450 @@
+{
+  "schema": 1,
+  "protocol": "webshop-balanced140-disjoint-v1",
+  "canonical_catalog_seed": 1000,
+  "selection_seed": 2026,
+  "selection": "28 per native category; unique target products; balance attribute/option counts, query and product category; hash tie-break",
+  "identity": "normalized instruction minus generated price suffix + attributes + goal_options; no ASIN",
+  "upstream_commit": "29dcb12a55d8fc17ba6ae03fd0a69048f43051f3",
+  "assets_lock_sha256": "f8313d36b83df707e2f44b85fd2a07aa765ad82e3ee9cc9f26620e92e34cc81a",
+  "raw_goal_entries": 6910,
+  "unique_task_families": 6859,
+  "training_goal_entries": 6765,
+  "validation_goal_entries_before_dedup": 145,
+  "catalog_task_ids_sha256": "9c3920679fd2df1e58113cd8abe8e0091a741fc1ae0d8ebc16b73312a5ea6d71",
+  "training_task_families": 6719,
+  "validation_task_ids": [
+    "bb89aaa8983ad6e8991d18ce2a10ff140e48df992a6e77901fcaf12454bb628e",
+    "33432ec7e8a8c3480e2f0bae29b29bb1344662d8ff868692fe091ed29c875182",
+    "f056bd10a273e5d7fc4cd8be06cf9a69efd6efcd0b697730f3bfc369de46d9b4",
+    "9085996495327b83bba3c7745f80a2cc00fcc02ee9d1eb3a3b4f121256e4a461",
+    "03a6a309ae6bb01ba00882469990e7dd560c7e1f1a13a7756cfcc48fdc471d11",
+    "a4e426647c0114db9a485d3282ce8ae5935f10e04425d4dc4a402ad8b2c671c4",
+    "b45480365b764a81d907f4b13a451d0eb64c163e9524fdb4d0e5e0f4bc5af292",
+    "e8c06fd93e19ebc9b2d731b3e92ed8a38f5bea73fa047f8532f94583b4199c68",
+    "bf3178887011965312038caa6823e75ffe7b21f3ba7ec3d2159ab7880a1d0432",
+    "57d19edaeea8b06e9c10550e50203556dec28a8caecc4ac1a4795d5d96bb1261",
+    "cd9901f32278358011834c4ea67d0c68e52b57bc3774a626fb89504915e8e2a2",
+    "b7096422ce5d524fb3726a67fe4518ca2420012e6e9d8740c1a31d6b0e6c1cc9",
+    "382c23999973a77911a0962c9c9501b7f33bf51e59e0e8334f84c216cc31223c",
+    "19edcdba714a0ed916a29ca985f927ab7bcd3fa6ff3210a9b1ec9ae3db9a69e2",
+    "b3fa409154d27a9289ba51e3f539f9a6bdb068234b7a0cef2375b08b15d67cbd",
+    "139563d19e3d1d5297e3ca1dc9d188ca217b5a61d9c69e29d7b043f9dcb6f45b",
+    "a62412b91c9868a9851343cb5a2cdeb2faa1acfc865713af9b80dac62ff16055",
+    "a9b3170c617136ac6367350260acd6f2d01a3911800a3f67aae1058086575290",
+    "6331d77868ffaca4ebaf7ee40364c5db84e80835f9bf08a39c4f019c1a434796",
+    "806611822273146b36f8088eb94a10975f6d11e47eacc52d80f06547e6a9db9c",
+    "1bed295882b8e3595dfdbd4e36a0b37fe771530d9ae558619a27481436dcae32",
+    "50c24438ec234b1d28b6b2f570ff48d795b04a950c1cfdcf9629c3bf0a3a4a5f",
+    "5fb3f2278207471228f635ce1c64985f63e6c67eb5dbb39f4e398effcb2ca2f6",
+    "2f3d7cc5c6567b20333541271b5cd7990c9b0950f78f4f172fec3df62d2ee71f",
+    "da966a2097d964ca585ce5c6e84eb4179b6a35ec073f0383313ac12b9e7d8da3",
+    "59740e44b73ff891787bde4b4606502c13e6833020f0434dc8968cf69b84672c",
+    "264589fad4c33a8173b60d63ba3b0e12588eb3de486ef816beeceb47f6461e4c",
+    "a92c07540a52a94f1039d83e3905e07f967013577364d8ffbb16eb8864437d5d",
+    "b261f048fd09eb1b88cf31bb7147186c2a01f9012e3a112278f570fe67a0e087",
+    "35a86525d4cd4f21b926df120a9d41a8fff2a485649644a182644b9728ef8b42",
+    "94d59f9288a19f432bcdb5665f0208a8ba3fcc6b36ab22c950b2176960cf38a9",
+    "3da8bfd2102c34e800fd2af3a0dcc26143eac7e76d750c819489316f314eb020",
+    "46ed4d804bfde5ed91a1147286401c04eaf0ce9ec91364a6686ac7ec9752ebb6",
+    "3deede5ad5c66898417253695e0ea8959528d3c55e24d31824a109ff4fdc4174",
+    "683253fd193beec9d6b039e3b57fffba6e8ffd90399768999a8fff028325f324",
+    "9463ef3bcae7d4b11bb705ac03c90fc24866cccbaa1daf30c8ed8f5a8c08da06",
+    "bc6ff8300d4d65f3b5930160d238a03e21bd6a9764473bddd5bb594daa9e49a0",
+    "a2650fd53a468b970b5935384ead13bad18400ee735d0cf28479123dff6102aa",
+    "ef702c74c2bbaaa968394c938f96f72c4c4f57b18d95d9cb10ebf83838f05ccb",
+    "2cdbb59c5bec1df4b2e3ec9268e3d47b1c71325e6a886933b527052a302f303d",
+    "e00c029ae73fcb95f422660afe3d11486d2387c30fcd45a6a81fa1bd0c9fe425",
+    "44d4f8cd0da0dbaa6695536744fb856388fcce683e4323243c0ebc6603a7b77a",
+    "e69cdc795dd1fa0dcd3c382349c88ce747df72949aa92bc865f4e61e0dd0a441",
+    "ed40d8f63aa9c655cff70d35c6c700304aa961de8a0910947923bd68d71d70f0",
+    "a8966367e7a883479e42ad183f706543d832723567d567a1058a5cf26f06a619",
+    "7cff478771df2076b8ddb806635ff1a599c1978696c29fcaa4b465d377ee2d28",
+    "3b2b771734d81a1bf9c89e7e916c9d6e6c5e20330ff1a1910cd71b0e649160e0",
+    "65fdad7e722bea3aee141682542d88442520410301859e50a6ca975c9427a38e",
+    "5013705ba0f274e8475fdec9cf6e1c1f38b8a742e85ac4d686c8c98eda0cc770",
+    "99f80f75b3fc0f4e5c34c4a2de4892cca11ab1c675324b0c4e2c053a5e1dbef0",
+    "c423f9e6503bfd3fbc3ed69f7ef1cebbb9d28ec08bd40040bde402dcc7166808",
+    "d2fda6f0e65fbc128e5ba4901f0191f196f0cbb9602267acf727dc819ac741c8",
+    "19940c76adf75384e0d2852e3cb1353767f6838c714090369d93c79b1bc989d5",
+    "851016d7f84f7e98383eee67df0f3faca68cead4644f57aa6252d85bee71e898",
+    "bd7b1c16a2b9a1fa1f15ab921f4938abcb7424e2cadb84697423fd8541009cc6",
+    "e8fbe1bfe77fe91a5184c6dbbc7be1ed6d8fa92dcbecdfcfdb8d11884df40aa9",
+    "4424cd75ae1f6b037e7b42bf92ef4e039c8348f951e7aab58419a25f4252c422",
+    "b5930d419ccdcfb972a78e9c505be9bc71ce67f2da265a769bd546ec19dd2bb8",
+    "d51c2c096308b3f79ef15f4f247ec62a15c026c9833ec2b862c3eb8e0e64ed61",
+    "5385fe3f2c243bf55019274a99a0dfd8e4b7c54bfddae52b8be01e96f59b5a98",
+    "83ff07539c3d00bb2b91d20db798cd677b67c3427fb8d91e5e34fcda4d197180",
+    "de20f675ebed9ef3f108c31c8ad19b48f37374b06aeb1e84ff1ae9f6bc06936d",
+    "16052192c456a4d360d1922e1bcf6c40c76f1f79acce6c77694e4bf1aff9065d",
+    "2fc599d9bacb579911cb2273d9780f5c0319772ec0b32abd6ca8c5012b6fe4cb",
+    "0087fc6e0d8837f4f85d999c32bf2506b073d6f1d12b76bd59e8b39648025b60",
+    "c9c136137bc691b4745ebcdaa06b214cab7d491b5e0f797102458b0ed2f89023",
+    "e19da8c6279c0d3418343bf44542b11cddf1ee3842c469bb8e49c7c3cde0b284",
+    "65ec1c9b85d4b43847f3c12521f07faa94324a92aa3d5996d301b4537e0d8248",
+    "2184f887f0a3bd742e1d0bfd2e7ee957df386b4c48c29fcdb4b559c33f03e814",
+    "70ce0d6c1d58bd671c8f28a8c0eacfb1f6664efe978412c18aa64541536fa90f",
+    "8323cb965159a4606454cf0b96df6c939624bb921ca34c69aa0fc9d5fca7c399",
+    "86cc4b0856623fc61f88fa2d51cf94242a97cea1c47c5ef9876e829cc82a7bab",
+    "944fde9f5b7552777d0cbcec896632cd07f1b3089a8d5eda04347486a6ad2a9f",
+    "728f7bf09a117f527e1e563b9bb2aa82527ca2e9bb207d00bd4e81acd8309f93",
+    "d7b4949d24a48f0967a6557bbfe0185d37407cff7df282edc4dfd1208ea7ae58",
+    "e96d6ce1a63881c3057b5cbc7261773f49c559c254c280b5373e4b5175bc40ac",
+    "c5b2377d237860e7bb3760ba3098108f2608b6d34f138206334ad8147f0a8746",
+    "f21adb31d31872442bc6bef7db6b7f5264267d19ee77dc2427fc521530f007c7",
+    "c7207d1a6c3ea17ffe8869fb77ed1cd21d7c62369c14926d2227fc4a9dfb0286",
+    "a886ba757857bf6abeaeb1704abd3e368691bd114fc0fef1a8335dff06b44057",
+    "33030eaa47b0ffca042bb1194a7eb8f79ce17931b82ab7e6f6477a22c8265e43",
+    "e03961720abae19e0752696f3282840806b250e57faa095b90b1eb859e212a75",
+    "ead51218592e2433c2d19a27a044bf94c6fe68b2baf3a09b1127a163372ce469",
+    "70db362ff7e7e1c095cd4e522bc2345817a442753159fd66e262398cec9e6563",
+    "9cafee725ba548b2290cfeab574a2e065d98b1cbee01d37d4efe383329349391",
+    "2f952050b8d3a0c583027d1f23bdbf8739467d432dcf6aa1401a949fcbb854e8",
+    "4d1a5d3645ed5cef59f6c0a2f97aa29d3f1514479722c166d03bc7fc9016e7ae",
+    "e36cd1857fcc0c953b27655c32ea5c2336ec8e49a8ed9a66bf9e19f03bcbba67",
+    "bdd53c25a8a2c1924cd842f50165ca1331367879eb8cf77f56a6961c82bd5b75",
+    "c5d9ad486676ac7215506c01bd346f1b7be0b301418f2b543fbbbb3b8e32fa20",
+    "ad8df10fbb4fd643bf434951a41ab05f033481f9a24b17eff87d5b8834520c13",
+    "50212f8cd167389739c287738d9613cfbe58f3f08bdd47e5ec032d3d5895cce2",
+    "aa9720696e8301ca152b78d127c666ecacba4a524f3dbe6ec8e5774c3ed0783f",
+    "c92fd584f553b76b22d86fe5273a7374ee40db667f2c017980fe0bc530896cc0",
+    "55a70c84722aa5497c5b2fb7b7d189349fc8efe839459d838a660bf5ec16091f",
+    "db2cdb519b1f9644cb04a345c5e12a480259382558a47f0863ae1dc23555178a",
+    "a1ece9fb09f4b1780e73e86cdaa0287609e1f86da4115626644c09b1b4d3337f",
+    "2ebc1f166867384ebc2241e78afe6b6b544538e46162726c54c5f56e367f81e3",
+    "e17b27c60954397577db9e4c28f5e1ffa90939660b63b31f1f8c66b8c74c46ec",
+    "50060ae349e4725d942b250054a0847ec9c07cf39df1571982f74634d9a7f48c",
+    "64c2ecadeb4ffb345e7b0c389cefb4e163e082ae7905ba26e661cad05784a84a",
+    "e876d3d5ea28c73b732b864528ad68d625e276ba37368af2dcc5f20330c8ab23",
+    "eecee3c8b07b2b331a092a9e72bb44c1a2811a029e0b72e04e4203241b2ce6fc",
+    "c09afd4c678d5418e9515f53605b211f3722bae7f94a29da9d4daf2ca0e7366d",
+    "718e3e7388d9f3323cd4873894597b06c6a89701ac7a76893ed61363c18a4c72",
+    "0a3d950b35f8ce3eea5d33e51cf2efff25000054664eee26a2be20a87f9a48bb",
+    "8bf0df1fc91ef9b5b417b5a92adfdc9784610f47cfb03a746c183552e16e3fbd",
+    "532c13a8a4e5542b61dc322cc0fddbb2d9aedd2cb3257f5dc2df80f092dcbef3",
+    "9e5bac59cf714b2b1f78c447d196ce673155845fe6cb9c9a7463a4eff2d03c7a",
+    "f5f17c510ea2db4f900a5e4f8367599969c9c42fe1200bc1d8bc4def1e670da3",
+    "cfe8191bf0f2007da6f1086f7ba0fe3673a600a8ed8ebf11651c1e9199b260ee",
+    "456ed486a635b3ce81ab4006edfcbc9672b9196cc35bab322d54865a91fc664f",
+    "d9c9b91e74776a6a85427f4c18b8ea2b9958cfd8f76cedba8287f0aa7ae75c92",
+    "100153ae802fe491128dac00357f12dda2f4b0e26b2ed72a92f8b40bdc2bff12",
+    "4a9c61b3016751ba102fc726adb3d406c7f4b04da5ab87c8e62d5b2d2e1b70b8",
+    "510b58a6a5816413f496aaeb64444bd2299c27a089b9133b4a8ca208bf637d76",
+    "bdc2718e2a6e5bca2fe2736a326a5eae354f148e97005a0f04fb4bc4c6c8c412",
+    "08078b3c969c319f9e7ddaba01ed81d9358de83563409a2421ec215f06b98177",
+    "59c246c5ba75f03b529809531c9652d99a5e689dc01cd8972cb721fc4784085a",
+    "a851381a144f4d29bdd292a660797ed077c4167d8618005823f4b282875412c3",
+    "83457461d6e40cc60003a87080b445a6a62f25a06a9309d86f873ff6d0758661",
+    "0dd5e1df460829f5d1546870f86ef90427ed01d9f4f1e7b740004393ed8ab69d",
+    "32369fb132602b0c3aaf7c86ce3e853b7df6a67949d2846e79ba7af7ce2959b3",
+    "161274940329802cc681e4caf6c3a13ba1852a767e0c94c895376d27877ee7e6",
+    "3d6305c4d91c8a38e737ed9461fa4b54a388af461d04ad48e2aa921b4607e272",
+    "a192a77494431829447da81a4d72634b5cd05246fa7131414ec9fa90815e2320",
+    "50279484815e2fb3588738880b906d6ed213490526fa1c110d6112701ec578c9",
+    "ae4ac229e7c223ec2252bbccbef1ddf0137eb69878f1b36cea1c798191923de7",
+    "40997c7849664696ea2c81c28acc40c77a8f599707f46b62ba357b7e18a2dce8",
+    "f6e15661b0cdc72a0a790a3df90172f47efbc2f30233eb43a4a33a87aeb228a0",
+    "17fa4a07927748320427e608f3f3757f73dd7d347bd3f278fed5c1705568883a",
+    "114a9ae6da2f8261b7cf2a2f28c5cfae656e5343045563986c18238e7342a4ad",
+    "99d19e1d74da5c11574c3fe857a2fdb1959b713e55d62adf78f42febd1726fd8",
+    "1671e252fa9322041c5f4c350dea946bccb80ed8db2feb8b6a6b98c24cce0f6e",
+    "29bf62b691a237c648e7b4cb5ccb1b656315fffb11c09ad363ed6bef12f44904",
+    "52b7b2d6cd5f78407abb793eed1fca82ecea026be143083ebc478b6ffa9604a9",
+    "7b8ccc2aeb1eb1e2a1dc1c679b68dc02ea7a8f12f9b2641e5dc92690d1eaed4d",
+    "9d32a42fc61b089f3c86a1f7a29027fa8980937265d1dc6323a121cb037469cd",
+    "31255dd11a597bcc6e15eaa9301299b1a341b83564eb888a5b72ace37afceb32",
+    "a6de824e1c24ac8726b2e23d2e5ac3c5178492b7429c2beb9eb76f4938d31094"
+  ],
+  "validation_tasks": [
+    {
+      "task_id": "bb89aaa8983ad6e8991d18ce2a10ff140e48df992a6e77901fcaf12454bb628e",
+      "asin": "B098824K9T",
+      "category": "beauty",
+      "query": "bathing accessories",
+      "product_category": "Beauty & Personal Care › Personal Care › Bath & Bathing Accessories › Bathing Accessories › Shower Caps",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "33432ec7e8a8c3480e2f0bae29b29bb1344662d8ff868692fe091ed29c875182",
+      "asin": "B094JTNPWK",
+      "category": "beauty",
+      "query": "scrubs & body treatments",
+      "product_category": "Beauty & Personal Care › Skin Care › Body › Body Scrubs",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "f056bd10a273e5d7fc4cd8be06cf9a69efd6efcd0b697730f3bfc369de46d9b4",
+      "asin": "B004TSFEBY",
+      "category": "beauty",
+      "query": "makeup brushes & tools",
+      "product_category": "Beauty & Personal Care › Tools & Accessories › Makeup Brushes & Tools › Brush Sets",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "9085996495327b83bba3c7745f80a2cc00fcc02ee9d1eb3a3b4f121256e4a461",
+      "asin": "B08FX48B6X",
+      "category": "beauty",
+      "query": "skin care tools",
+      "product_category": "Beauty & Personal Care › Tools & Accessories › Skin Care Tools",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "03a6a309ae6bb01ba00882469990e7dd560c7e1f1a13a7756cfcc48fdc471d11",
+      "asin": "B08XH9JMTG",
+      "category": "beauty",
+      "query": "lip care",
+      "product_category": "Beauty & Personal Care › Oral Care › Dental Floss & Picks › Dental Floss",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "a4e426647c0114db9a485d3282ce8ae5935f10e04425d4dc4a402ad8b2c671c4",
+      "asin": "B09JNRTFGQ",
+      "category": "beauty",
+      "query": "foot, hand & nail care",
+      "product_category": "Beauty & Personal Care › Foot, Hand & Nail Care › Tools & Accessories › Sets & Kits",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "b45480365b764a81d907f4b13a451d0eb64c163e9524fdb4d0e5e0f4bc5af292",
+      "asin": "B087Y28XLM",
+      "category": "beauty",
+      "query": "body care",
+      "product_category": "Beauty & Personal Care › Skin Care › Body › Moisturizers › Lotions",
+      "attribute_count": 3,
+      "option_count": 2
+    },
+    {
+      "task_id": "e8c06fd93e19ebc9b2d731b3e92ed8a38f5bea73fa047f8532f94583b4199c68",
+      "asin": "B005X7IXTK",
+      "category": "beauty",
+      "query": "deodorants & antiperspirants",
+      "product_category": "Beauty & Personal Care › Personal Care › Deodorants & Antiperspirants › Deodorant",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "bf3178887011965312038caa6823e75ffe7b21f3ba7ec3d2159ab7880a1d0432",
+      "asin": "B07B6DVG41",
+      "category": "beauty",
+      "query": "shampoo & conditioner",
+      "product_category": "Beauty & Personal Care › Hair Care › Shampoo & Conditioner › Shampoos",
+      "attribute_count": 7,
+      "option_count": 0
+    },
+    {
+      "task_id": "57d19edaeea8b06e9c10550e50203556dec28a8caecc4ac1a4795d5d96bb1261",
+      "asin": "B08NB29KXH",
+      "category": "beauty",
+      "query": "shave & hair removal",
+      "product_category": "Beauty & Personal Care › Shave & Hair Removal › Men's › Eyebrow Trimmers",
+      "attribute_count": 5,
+      "option_count": 0
+    },
+    {
+      "task_id": "cd9901f32278358011834c4ea67d0c68e52b57bc3774a626fb89504915e8e2a2",
+      "asin": "B09BW4S48B",
+      "category": "beauty",
+      "query": "makeup remover",
+      "product_category": "Beauty & Personal Care › Tools & Accessories › Cotton Balls & Swabs › Cotton Pads & Rounds",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "b7096422ce5d524fb3726a67fe4518ca2420012e6e9d8740c1a31d6b0e6c1cc9",
+      "asin": "B09RFDP1C3",
+      "category": "beauty",
+      "query": "skin care sets & kits",
+      "product_category": "Beauty & Personal Care › Skin Care › Face › Sets & Kits",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "382c23999973a77911a0962c9c9501b7f33bf51e59e0e8334f84c216cc31223c",
+      "asin": "B09SHRV5JW",
+      "category": "beauty",
+      "query": "hair loss products",
+      "product_category": "Beauty & Personal Care › Hair Care › Hair Loss Products › Hair Regrowth Treatments",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "19edcdba714a0ed916a29ca985f927ab7bcd3fa6ff3210a9b1ec9ae3db9a69e2",
+      "asin": "B08XQWJX8P",
+      "category": "beauty",
+      "query": "men's fragrance",
+      "product_category": "Beauty & Personal Care › Fragrance",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "b3fa409154d27a9289ba51e3f539f9a6bdb068234b7a0cef2375b08b15d67cbd",
+      "asin": "B09MYFGDY5",
+      "category": "beauty",
+      "query": "orthodontic supplies",
+      "product_category": "Beauty & Personal Care › Oral Care › Orthodontic Supplies",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "139563d19e3d1d5297e3ca1dc9d188ca217b5a61d9c69e29d7b043f9dcb6f45b",
+      "asin": "B08RCVFMQ7",
+      "category": "beauty",
+      "query": "makeup palettes",
+      "product_category": "Beauty & Personal Care › Makeup › Eyes › Eyeshadow",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "a62412b91c9868a9851343cb5a2cdeb2faa1acfc865713af9b80dac62ff16055",
+      "asin": "B08G14B779",
+      "category": "beauty",
+      "query": "bathing accessories",
+      "product_category": "Beauty & Personal Care › Hair Care › Hair Accessories › Hair Drying Towels",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "a9b3170c617136ac6367350260acd6f2d01a3911800a3f67aae1058086575290",
+      "asin": "B09MW563KN",
+      "category": "beauty",
+      "query": "tongue cleaners",
+      "product_category": "Beauty & Personal Care › Oral Care › Toothbrushes & Accessories › Manual Toothbrushes",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "6331d77868ffaca4ebaf7ee40364c5db84e80835f9bf08a39c4f019c1a434796",
+      "asin": "B09FYBZNQL",
+      "category": "beauty",
+      "query": "hair masks",
+      "product_category": "Beauty & Personal Care › Hair Care",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "806611822273146b36f8088eb94a10975f6d11e47eacc52d80f06547e6a9db9c",
+      "asin": "B09GP6G1MT",
+      "category": "beauty",
+      "query": "hair cutting tools",
+      "product_category": "Beauty & Personal Care › Hair Care › Hair Cutting Tools › Shears",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "1bed295882b8e3595dfdbd4e36a0b37fe771530d9ae558619a27481436dcae32",
+      "asin": "B08DZ2593Y",
+      "category": "beauty",
+      "query": "toothpaste",
+      "product_category": "Beauty & Personal Care › Oral Care › Toothpaste",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "50c24438ec234b1d28b6b2f570ff48d795b04a950c1cfdcf9629c3bf0a3a4a5f",
+      "asin": "B08XQRDDT1",
+      "category": "beauty",
+      "query": "lips makeup",
+      "product_category": "Beauty & Personal Care › Makeup › Face › Blush",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "5fb3f2278207471228f635ce1c64985f63e6c67eb5dbb39f4e398effcb2ca2f6",
+      "asin": "B096MM7XM4",
+      "category": "beauty",
+      "query": "hair extensions, wigs & accessories",
+      "product_category": "Beauty & Personal Care › Hair Care › Hair Extensions, Wigs & Accessories › Adhesives",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "2f3d7cc5c6567b20333541271b5cd7990c9b0950f78f4f172fec3df62d2ee71f",
+      "asin": "B09MCF64RM",
+      "category": "beauty",
+      "query": "bags & cases",
+      "product_category": "Beauty & Personal Care › Tools & Accessories › Bags & Cases › Cosmetic Bags",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "da966a2097d964ca585ce5c6e84eb4179b6a35ec073f0383313ac12b9e7d8da3",
+      "asin": "B09G9V3G1N",
+      "category": "beauty",
+      "query": "sets fragrance",
+      "product_category": "Beauty & Personal Care › Tools & Accessories › Bags & Cases",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "59740e44b73ff891787bde4b4606502c13e6833020f0434dc8968cf69b84672c",
+      "asin": "B08J3WFRBT",
+      "category": "beauty",
+      "query": "refillable containers",
+      "product_category": "Beauty & Personal Care › Tools & Accessories › Refillable Containers › Squeeze Bottles",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "264589fad4c33a8173b60d63ba3b0e12588eb3de486ef816beeceb47f6461e4c",
+      "asin": "B08HVH2DZF",
+      "category": "beauty",
+      "query": "piercing & tattoo supplies",
+      "product_category": "Beauty & Personal Care › Personal Care › Piercing & Tattoo Supplies › Tattoo Supplies › Tattoo Machine Parts",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "a92c07540a52a94f1039d83e3905e07f967013577364d8ffbb16eb8864437d5d",
+      "asin": "B005P0T90C",
+      "category": "beauty",
+      "query": "hair coloring products",
+      "product_category": "Beauty & Personal Care › Hair Care › Hair Coloring Products › Hair Color",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "b261f048fd09eb1b88cf31bb7147186c2a01f9012e3a112278f570fe67a0e087",
+      "asin": "B083HXHG75",
+      "category": "electronics",
+      "query": "video glasses",
+      "product_category": "Cell Phones & Accessories › Cases, Holsters & Sleeves › Basic Cases",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "35a86525d4cd4f21b926df120a9d41a8fff2a485649644a182644b9728ef8b42",
+      "asin": "B09SWLPPVQ",
+      "category": "electronics",
+      "query": "signal boosters",
+      "product_category": "Electronics › Computers & Accessories › Networking Products › Repeaters",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "94d59f9288a19f432bcdb5665f0208a8ba3fcc6b36ab22c950b2176960cf38a9",
+      "asin": "B09P57ZKGP",
+      "category": "electronics",
+      "query": "flashes",
+      "product_category": "Electronics › Computers & Accessories › Data Storage › USB Flash Drives",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "3da8bfd2102c34e800fd2af3a0dcc26143eac7e76d750c819489316f314eb020",
+      "asin": "B07VVVDRCX",
+      "category": "electronics",
+      "query": "online game services",
+      "product_category": "Electronics › Computers & Accessories › Tablet Accessories › Bags, Cases & Sleeves › Cases",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "46ed4d804bfde5ed91a1147286401c04eaf0ce9ec91364a6686ac7ec9752ebb6",
+      "asin": "B08QSNM69H",
+      "category": "electronics",
+      "query": "hdmi cables",
+      "product_category": "Electronics › Accessories & Supplies › Audio & Video Accessories › Cables & Interconnects › Video Cables › HDMI Cables",
+      "attribute_count": 4,
+      "option_count": 2
+    },
+    {
+      "task_id": "3deede5ad5c66898417253695e0ea8959528d3c55e24d31824a109ff4fdc4174",
+      "asin": "B09NDGV4PL",
+      "category": "electronics",
+      "query": "bluetooth speakers",
+      "product_category": "Electronics › Portable Audio & Video › Portable Speakers & Docks › Portable Bluetooth Speakers",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "683253fd193beec9d6b039e3b57fffba6e8ffd90399768999a8fff028325f324",
+      "asin": "B08QRHVS6N",
+      "category": "electronics",
+      "query": "iphone accessories",
+      "product_category": "Cell Phones & Accessories › Accessories › Automobile Accessories › Cradles",
+      "attribute_count": 3,
+      "option_count": 2
+    },
+    {
+      "task_id": "9463ef3bcae7d4b11bb705ac03c90fc24866cccbaa1daf30c8ed8f5a8c08da06",
+      "asin": "B08YQKXLVG",
+      "category": "electronics",
+      "query": "binoculars & scopes",
+      "product_category": "Electronics › Camera & Photo › Binoculars & Scopes › Binoculars",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "bc6ff8300d4d65f3b5930160d238a03e21bd6a9764473bddd5bb594daa9e49a0",
+      "asin": "B0932C11QQ",
+      "category": "electronics",
+      "query": "receivers & amplifiers",
+      "product_category": "Electronics › Home Audio › Home Theater › Receivers & Amplifiers › Amplifiers",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "a2650fd53a468b970b5935384ead13bad18400ee735d0cf28479123dff6102aa",
+      "asin": "B09B4YH4RG",
+      "category": "electronics",
+      "query": "soundbars",
+      "product_category": "Electronics › Home Audio › Speakers › Sound Bars",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "ef702c74c2bbaaa968394c938f96f72c4c4f57b18d95d9cb10ebf83838f05ccb",
+      "asin": "B09R1T2P6V",
+      "category": "electronics",
+      "query": "wearable technology",
+      "product_category": "Cell Phones & Accessories › Accessories › Smartwatch Accessories › Smartwatch Bands",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "2cdbb59c5bec1df4b2e3ec9268e3d47b1c71325e6a886933b527052a302f303d",
+      "asin": "B07KK7G5YJ",
+      "category": "electronics",
+      "query": "underwater photography",
+      "product_category": "Electronics › Camera & Photo › Lighting & Studio › Photo Studio › Backgrounds",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "e00c029ae73fcb95f422660afe3d11486d2387c30fcd45a6a81fa1bd0c9fe425",
+      "asin": "B08VH8MZZ6",
+      "category": "electronics",
+      "query": "video surveillance",
+      "product_category": "Electronics › Camera & Photo › Video Surveillance › Surveillance Cameras › Dome Cameras",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "44d4f8cd0da0dbaa6695536744fb856388fcce683e4323243c0ebc6603a7b77a",
+      "asin": "B06XQYN77L",
+      "category": "electronics",
+      "query": "bluetooth headsets",
+      "product_category": "Electronics › Car & Vehicle Electronics › Vehicle Electronics Accessories › Vehicle Audio & Video Installation › Amplifier Installation › Noise Filters",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "e69cdc795dd1fa0dcd3c382349c88ce747df72949aa92bc865f4e61e0dd0a441",
+      "asin": "B09J2QLPR1",
+      "category": "electronics",
+      "query": "headphones",
+      "product_category": "Electronics › Headphones › Over-Ear Headphones",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "ed40d8f63aa9c655cff70d35c6c700304aa961de8a0910947923bd68d71d70f0",
+      "asin": "B08M5BYQN9",
+      "category": "electronics",
+      "query": "car accessories",
+      "product_category": "Electronics › Car & Vehicle Electronics › Car Electronics › Car Video › In-Dash Navigation",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "a8966367e7a883479e42ad183f706543d832723567d567a1058a5cf26f06a619",
+      "asin": "B07GH3J1Z1",
+      "category": "electronics",
+      "query": "blu-ray players & recorders",
+      "product_category": "Electronics › Television & Video › Blu-ray Players & Recorders › Blu-ray Players",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "7cff478771df2076b8ddb806635ff1a599c1978696c29fcaa4b465d377ee2d28",
+      "asin": "B095PF5BXT",
+      "category": "electronics",
+      "query": "lenses",
+      "product_category": "Cell Phones & Accessories › Accessories › Maintenance, Upkeep & Repairs › Screen Protectors",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "3b2b771734d81a1bf9c89e7e916c9d6e6c5e20330ff1a1910cd71b0e649160e0",
+      "asin": "B004HO58MA",
+      "category": "electronics",
+      "query": "digital cameras",
+      "product_category": "Electronics › Camera & Photo › Digital Cameras › DSLR Cameras",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "65fdad7e722bea3aee141682542d88442520410301859e50a6ca975c9427a38e",
+      "asin": "B074PBDJG9",
+      "category": "electronics",
+      "query": "surround sound systems",
+      "product_category": "Electronics › Home Audio",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "5013705ba0f274e8475fdec9cf6e1c1f38b8a742e85ac4d686c8c98eda0cc770",
+      "asin": "B0924PKLQ4",
+      "category": "electronics",
+      "query": "mounts",
+      "product_category": "Electronics › Accessories & Supplies › Mounts › Speaker Mounts",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "99f80f75b3fc0f4e5c34c4a2de4892cca11ab1c675324b0c4e2c053a5e1dbef0",
+      "asin": "B09QMPV75P",
+      "category": "electronics",
+      "query": "flashes",
+      "product_category": "Electronics › Computers & Accessories › Data Storage › USB Flash Drives",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "c423f9e6503bfd3fbc3ed69f7ef1cebbb9d28ec08bd40040bde402dcc7166808",
+      "asin": "B07THL8PP1",
+      "category": "electronics",
+      "query": "chargers",
+      "product_category": "Cell Phones & Accessories › Accessories › Chargers & Power Adapters › Wireless Chargers",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "d2fda6f0e65fbc128e5ba4901f0191f196f0cbb9602267acf727dc819ac741c8",
+      "asin": "B00VI88X7U",
+      "category": "electronics",
+      "query": "av receivers & amplifiers",
+      "product_category": "Electronics › Car & Vehicle Electronics › Car Electronics › Car Audio › Car Stereo Receivers",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "19940c76adf75384e0d2852e3cb1353767f6838c714090369d93c79b1bc989d5",
+      "asin": "B089ZJ7H1N",
+      "category": "electronics",
+      "query": "power protection",
+      "product_category": "Cell Phones & Accessories › Cases, Holsters & Sleeves › Basic Cases",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "851016d7f84f7e98383eee67df0f3faca68cead4644f57aa6252d85bee71e898",
+      "asin": "B08YWKVNLT",
+      "category": "electronics",
+      "query": "binoculars & scopes",
+      "product_category": "Electronics › Camera & Photo › Binoculars & Scopes › Binoculars",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "bd7b1c16a2b9a1fa1f15ab921f4938abcb7424e2cadb84697423fd8541009cc6",
+      "asin": "B07JMXLXNY",
+      "category": "electronics",
+      "query": "screen protectors",
+      "product_category": "Electronics › Computers & Accessories › Tablet Accessories › Screen Protectors",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "e8fbe1bfe77fe91a5184c6dbbc7be1ed6d8fa92dcbecdfcfdb8d11884df40aa9",
+      "asin": "B0982W8RKZ",
+      "category": "electronics",
+      "query": "mac",
+      "product_category": "Cell Phones & Accessories › Cases, Holsters & Sleeves › Basic Cases",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "4424cd75ae1f6b037e7b42bf92ef4e039c8348f951e7aab58419a25f4252c422",
+      "asin": "B07ZXBGDXF",
+      "category": "fashion",
+      "query": "women's shorts",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Clothing › Coats, Jackets & Vests › Fur & Faux Fur",
+      "attribute_count": 3,
+      "option_count": 2
+    },
+    {
+      "task_id": "b5930d419ccdcfb972a78e9c505be9bc71ce67f2da265a769bd546ec19dd2bb8",
+      "asin": "B0969G2DH8",
+      "category": "fashion",
+      "query": "men's dress shirts",
+      "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Women › Tops & Tees › T-Shirts",
+      "attribute_count": 6,
+      "option_count": 3
+    },
+    {
+      "task_id": "d51c2c096308b3f79ef15f4f247ec62a15c026c9833ec2b862c3eb8e0e64ed61",
+      "asin": "B07MGB73NJ",
+      "category": "fashion",
+      "query": "women's tops, tees & blouses",
+      "product_category": "",
+      "attribute_count": 6,
+      "option_count": 2
+    },
+    {
+      "task_id": "5385fe3f2c243bf55019274a99a0dfd8e4b7c54bfddae52b8be01e96f59b5a98",
+      "asin": "B08DXL22JN",
+      "category": "fashion",
+      "query": "women's suiting & blazers",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Clothing › Suiting & Blazers › Blazers",
+      "attribute_count": 5,
+      "option_count": 2
+    },
+    {
+      "task_id": "83ff07539c3d00bb2b91d20db798cd677b67c3427fb8d91e5e34fcda4d197180",
+      "asin": "B078WSND96",
+      "category": "fashion",
+      "query": "men's t-shirts & tanks",
+      "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Men › Shirts › T-Shirts",
+      "attribute_count": 4,
+      "option_count": 2
+    },
+    {
+      "task_id": "de20f675ebed9ef3f108c31c8ad19b48f37374b06aeb1e84ff1ae9f6bc06936d",
+      "asin": "B09QKJHF4Q",
+      "category": "fashion",
+      "query": "women's oxfords",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Boots › Ankle & Bootie",
+      "attribute_count": 8,
+      "option_count": 2
+    },
+    {
+      "task_id": "16052192c456a4d360d1922e1bcf6c40c76f1f79acce6c77694e4bf1aff9065d",
+      "asin": "B07HP6LVRS",
+      "category": "fashion",
+      "query": "men's loafers & slip-ons",
+      "product_category": "Clothing, Shoes & Jewelry › Men › Shoes › Loafers & Slip-Ons",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "2fc599d9bacb579911cb2273d9780f5c0319772ec0b32abd6ca8c5012b6fe4cb",
+      "asin": "B09T756KQ5",
+      "category": "fashion",
+      "query": "men's tuxedo shirts",
+      "product_category": "Clothing, Shoes & Jewelry › Men › Clothing › Shirts › T-Shirts",
+      "attribute_count": 7,
+      "option_count": 2
+    },
+    {
+      "task_id": "0087fc6e0d8837f4f85d999c32bf2506b073d6f1d12b76bd59e8b39648025b60",
+      "asin": "B09PBPZ24Z",
+      "category": "fashion",
+      "query": "women's jeans",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Clothing › Jeans",
+      "attribute_count": 15,
+      "option_count": 1
+    },
+    {
+      "task_id": "c9c136137bc691b4745ebcdaa06b214cab7d491b5e0f797102458b0ed2f89023",
+      "asin": "B09NNMV9LN",
+      "category": "fashion",
+      "query": "men's henleys",
+      "product_category": "Clothing, Shoes & Jewelry › Men › Clothing › Shirts › Henleys",
+      "attribute_count": 9,
+      "option_count": 2
+    },
+    {
+      "task_id": "e19da8c6279c0d3418343bf44542b11cddf1ee3842c469bb8e49c7c3cde0b284",
+      "asin": "B01EX1BWE4",
+      "category": "fashion",
+      "query": "men's boots",
+      "product_category": "Clothing, Shoes & Jewelry › Men › Shoes › Boots › Motorcycle & Combat",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "65ec1c9b85d4b43847f3c12521f07faa94324a92aa3d5996d301b4537e0d8248",
+      "asin": "B01N9I1E62",
+      "category": "fashion",
+      "query": "women's slippers",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Slippers",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "2184f887f0a3bd742e1d0bfd2e7ee957df386b4c48c29fcdb4b559c33f03e814",
+      "asin": "B09P5V8ZSK",
+      "category": "fashion",
+      "query": "women's pumps",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Sandals › Heeled Sandals",
+      "attribute_count": 6,
+      "option_count": 1
+    },
+    {
+      "task_id": "70ce0d6c1d58bd671c8f28a8c0eacfb1f6664efe978412c18aa64541536fa90f",
+      "asin": "B09KXCHWGD",
+      "category": "fashion",
+      "query": "men's polos",
+      "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Men › Shirts › Polos",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "8323cb965159a4606454cf0b96df6c939624bb921ca34c69aa0fc9d5fca7c399",
+      "asin": "B09Q8RD8YN",
+      "category": "fashion",
+      "query": "men's fashion hoodies & sweatshirts",
+      "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Men › Hoodies",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "86cc4b0856623fc61f88fa2d51cf94242a97cea1c47c5ef9876e829cc82a7bab",
+      "asin": "B09HH6P68W",
+      "category": "fashion",
+      "query": "men's outdoor shoes",
+      "product_category": "Clothing, Shoes & Jewelry › Men › Shoes › Athletic › Walking",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "944fde9f5b7552777d0cbcec896632cd07f1b3089a8d5eda04347486a6ad2a9f",
+      "asin": "B09P5CRVQ6",
+      "category": "fashion",
+      "query": "women's activewear",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Clothing › Active › Active Base Layers",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "728f7bf09a117f527e1e563b9bb2aa82527ca2e9bb207d00bd4e81acd8309f93",
+      "asin": "B089K79PQ1",
+      "category": "fashion",
+      "query": "women's bodysuit tops",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Clothing › Bodysuits",
+      "attribute_count": 5,
+      "option_count": 1
+    },
+    {
+      "task_id": "d7b4949d24a48f0967a6557bbfe0185d37407cff7df282edc4dfd1208ea7ae58",
+      "asin": "B09P39QN2W",
+      "category": "fashion",
+      "query": "men's shirts",
+      "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Women › Tops & Tees › T-Shirts",
+      "attribute_count": 7,
+      "option_count": 3
+    },
+    {
+      "task_id": "e96d6ce1a63881c3057b5cbc7261773f49c559c254c280b5373e4b5175bc40ac",
+      "asin": "B079PH6955",
+      "category": "fashion",
+      "query": "men's t-shirts & tanks",
+      "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Men › Shirts › T-Shirts",
+      "attribute_count": 2,
+      "option_count": 3
+    },
+    {
+      "task_id": "c5b2377d237860e7bb3760ba3098108f2608b6d34f138206334ad8147f0a8746",
+      "asin": "B09HMCKZQW",
+      "category": "fashion",
+      "query": "women's pumps",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Boots › Ankle & Bootie",
+      "attribute_count": 7,
+      "option_count": 1
+    },
+    {
+      "task_id": "f21adb31d31872442bc6bef7db6b7f5264267d19ee77dc2427fc521530f007c7",
+      "asin": "B07T3VMGDG",
+      "category": "fashion",
+      "query": "men's tuxedo shirts",
+      "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Women › Tops & Tees › T-Shirts",
+      "attribute_count": 4,
+      "option_count": 3
+    },
+    {
+      "task_id": "c7207d1a6c3ea17ffe8869fb77ed1cd21d7c62369c14926d2227fc4a9dfb0286",
+      "asin": "B09N9T673Q",
+      "category": "fashion",
+      "query": "women's pumps",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Shoes › Sandals › Heeled Sandals",
+      "attribute_count": 8,
+      "option_count": 1
+    },
+    {
+      "task_id": "a886ba757857bf6abeaeb1704abd3e368691bd114fc0fef1a8335dff06b44057",
+      "asin": "B07XPR3R7N",
+      "category": "fashion",
+      "query": "men's t-shirts & tanks",
+      "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Women › Tops & Tees › T-Shirts",
+      "attribute_count": 3,
+      "option_count": 3
+    },
+    {
+      "task_id": "33030eaa47b0ffca042bb1194a7eb8f79ce17931b82ab7e6f6477a22c8265e43",
+      "asin": "B07N7TDKXQ",
+      "category": "fashion",
+      "query": "men's t-shirts",
+      "product_category": "Clothing, Shoes & Jewelry › Men › Clothing › Underwear › Undershirts",
+      "attribute_count": 3,
+      "option_count": 2
+    },
+    {
+      "task_id": "e03961720abae19e0752696f3282840806b250e57faa095b90b1eb859e212a75",
+      "asin": "B099WX3CV5",
+      "category": "fashion",
+      "query": "women's jumpsuits, rompers & overalls",
+      "product_category": "Clothing, Shoes & Jewelry › Women › Clothing › Jumpsuits, Rompers & Overalls › Jumpsuits",
+      "attribute_count": 6,
+      "option_count": 2
+    },
+    {
+      "task_id": "ead51218592e2433c2d19a27a044bf94c6fe68b2baf3a09b1127a163372ce469",
+      "asin": "B01HQTWL6S",
+      "category": "fashion",
+      "query": "women's fashion hoodies & sweatshirts",
+      "product_category": "Clothing, Shoes & Jewelry › Novelty & More › Clothing › Novelty › Women › Hoodies",
+      "attribute_count": 4,
+      "option_count": 2
+    },
+    {
+      "task_id": "70db362ff7e7e1c095cd4e522bc2345817a442753159fd66e262398cec9e6563",
+      "asin": "B08LKKSL8F",
+      "category": "fashion",
+      "query": "men's pants",
+      "product_category": "Clothing, Shoes & Jewelry › Men › Uniforms, Work & Safety › Clothing › Work Utility & Safety › Pants",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "9cafee725ba548b2290cfeab574a2e065d98b1cbee01d37d4efe383329349391",
+      "asin": "B01I5B1Q1M",
+      "category": "garden",
+      "query": "bar stools",
+      "product_category": "Home & Kitchen › Furniture › Game & Recreation Room Furniture › Home Bar Furniture › Barstools",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "2f952050b8d3a0c583027d1f23bdbf8739467d432dcf6aa1401a949fcbb854e8",
+      "asin": "B08QVDNJC7",
+      "category": "garden",
+      "query": "decorative pillows",
+      "product_category": "Home & Kitchen › Bedding › Decorative Pillows, Inserts & Covers › Throw Pillow Covers",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "4d1a5d3645ed5cef59f6c0a2f97aa29d3f1514479722c166d03bc7fc9016e7ae",
+      "asin": "B07FKGQKZ1",
+      "category": "garden",
+      "query": "home office furniture sets",
+      "product_category": "Home & Kitchen › Home Décor Products › Rugs, Pads & Protectors › Area Rugs",
+      "attribute_count": 2,
+      "option_count": 3
+    },
+    {
+      "task_id": "e36cd1857fcc0c953b27655c32ea5c2336ec8e49a8ed9a66bf9e19f03bcbba67",
+      "asin": "B099WH1RTM",
+      "category": "garden",
+      "query": "wall art",
+      "product_category": "Home & Kitchen › Wall Art › Posters & Prints",
+      "attribute_count": 3,
+      "option_count": 2
+    },
+    {
+      "task_id": "bdd53c25a8a2c1924cd842f50165ca1331367879eb8cf77f56a6961c82bd5b75",
+      "asin": "B09DG3YTHY",
+      "category": "garden",
+      "query": "throw blankets",
+      "product_category": "Home & Kitchen › Bedding › Blankets & Throws › Throws",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "c5d9ad486676ac7215506c01bd346f1b7be0b301418f2b543fbbbb3b8e32fa20",
+      "asin": "B08P8LRFZ4",
+      "category": "garden",
+      "query": "home office chairs",
+      "product_category": "Home & Kitchen › Furniture › Home Office Furniture › Home Office Chairs › Home Office Desk Chairs",
+      "attribute_count": 5,
+      "option_count": 1
+    },
+    {
+      "task_id": "ad8df10fbb4fd643bf434951a41ab05f033481f9a24b17eff87d5b8834520c13",
+      "asin": "B08FQTMCNM",
+      "category": "garden",
+      "query": "bases",
+      "product_category": "Home & Kitchen › Furniture › Living Room Furniture › Chairs",
+      "attribute_count": 4,
+      "option_count": 2
+    },
+    {
+      "task_id": "50212f8cd167389739c287738d9613cfbe58f3f08bdd47e5ec032d3d5895cce2",
+      "asin": "B09B7G7P58",
+      "category": "garden",
+      "query": "living room sets",
+      "product_category": "Home & Kitchen › Furniture › Dining Room Furniture › Table & Chair Sets",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "aa9720696e8301ca152b78d127c666ecacba4a524f3dbe6ec8e5774c3ed0783f",
+      "asin": "B09GY58GDH",
+      "category": "garden",
+      "query": "dining sets",
+      "product_category": "Home & Kitchen › Furniture › Dining Room Furniture › Chairs",
+      "attribute_count": 7,
+      "option_count": 1
+    },
+    {
+      "task_id": "c92fd584f553b76b22d86fe5273a7374ee40db667f2c017980fe0bc530896cc0",
+      "asin": "B06XFZXXTC",
+      "category": "garden",
+      "query": "coat racks",
+      "product_category": "Home & Kitchen › Storage & Organization › Clothing & Closet Storage › Clothes Hangers › Coat Hangers",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "55a70c84722aa5497c5b2fb7b7d189349fc8efe839459d838a660bf5ec16091f",
+      "asin": "B09B7ZKMVY",
+      "category": "garden",
+      "query": "mattresses",
+      "product_category": "Home & Kitchen › Furniture › Living Room Furniture › Futons › Futon Mattresses",
+      "attribute_count": 3,
+      "option_count": 3
+    },
+    {
+      "task_id": "db2cdb519b1f9644cb04a345c5e12a480259382558a47f0863ae1dc23555178a",
+      "asin": "B06ZYS6NW4",
+      "category": "garden",
+      "query": "kitchen islands",
+      "product_category": "Tools & Home Improvement › Lighting & Ceiling Fans › Ceiling Lights › Pendant Lights",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "a1ece9fb09f4b1780e73e86cdaa0287609e1f86da4115626644c09b1b4d3337f",
+      "asin": "B0928LGTVF",
+      "category": "garden",
+      "query": "sconces",
+      "product_category": "Tools & Home Improvement › Lighting & Ceiling Fans › Wall Lights › Wall Lamps & Sconces",
+      "attribute_count": 6,
+      "option_count": 2
+    },
+    {
+      "task_id": "2ebc1f166867384ebc2241e78afe6b6b544538e46162726c54c5f56e367f81e3",
+      "asin": "B08DHS3TH5",
+      "category": "garden",
+      "query": "vanities",
+      "product_category": "Tools & Home Improvement › Lighting & Ceiling Fans › Wall Lights › Vanity Lights",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "e17b27c60954397577db9e4c28f5e1ffa90939660b63b31f1f8c66b8c74c46ec",
+      "asin": "B094YFJ95K",
+      "category": "garden",
+      "query": "bedframes",
+      "product_category": "Home & Kitchen › Furniture › Bedroom Furniture › Beds, Frames & Bases › Bed Frames",
+      "attribute_count": 5,
+      "option_count": 0
+    },
+    {
+      "task_id": "50060ae349e4725d942b250054a0847ec9c07cf39df1571982f74634d9a7f48c",
+      "asin": "B09KQQNRRM",
+      "category": "garden",
+      "query": "pendants and chandeliers",
+      "product_category": "Tools & Home Improvement › Lighting & Ceiling Fans › Ceiling Lights › Chandeliers",
+      "attribute_count": 6,
+      "option_count": 1
+    },
+    {
+      "task_id": "64c2ecadeb4ffb345e7b0c389cefb4e163e082ae7905ba26e661cad05784a84a",
+      "asin": "B078PKLZFB",
+      "category": "garden",
+      "query": "mattresses",
+      "product_category": "Home & Kitchen › Furniture › Bedroom Furniture › Mattresses & Box Springs › Mattress & Box Spring Sets",
+      "attribute_count": 6,
+      "option_count": 0
+    },
+    {
+      "task_id": "e876d3d5ea28c73b732b864528ad68d625e276ba37368af2dcc5f20330c8ab23",
+      "asin": "B095KCTB3Y",
+      "category": "garden",
+      "query": "computer armoires",
+      "product_category": "Office Products › Office & School Supplies › Desk Accessories & Workspace Organizers › Desk Pads & Blotters",
+      "attribute_count": 3,
+      "option_count": 2
+    },
+    {
+      "task_id": "eecee3c8b07b2b331a092a9e72bb44c1a2811a029e0b72e04e4203241b2ce6fc",
+      "asin": "B09B77K9YQ",
+      "category": "garden",
+      "query": "console tables",
+      "product_category": "Home & Kitchen › Furniture › Living Room Furniture › Tables › Sofa & Console Tables",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "c09afd4c678d5418e9515f53605b211f3722bae7f94a29da9d4daf2ca0e7366d",
+      "asin": "B09CQ45ZRB",
+      "category": "garden",
+      "query": "desks",
+      "product_category": "Home & Kitchen › Kitchen & Dining › Kitchen Utensils & Gadgets › Kitchen Accessories › Comfort Mats",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "718e3e7388d9f3323cd4873894597b06c6a89701ac7a76893ed61363c18a4c72",
+      "asin": "B0943TLW3L",
+      "category": "garden",
+      "query": "artificial plants",
+      "product_category": "Home & Kitchen › Home Décor Products › Artificial Plants & Flowers › Artificial Trees",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "0a3d950b35f8ce3eea5d33e51cf2efff25000054664eee26a2be20a87f9a48bb",
+      "asin": "B09F6SCW47",
+      "category": "garden",
+      "query": "tv stands",
+      "product_category": "Home & Kitchen › Furniture › Living Room Furniture › TV & Media Furniture › Television Stands & Entertainment Centers",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "8bf0df1fc91ef9b5b417b5a92adfdc9784610f47cfb03a746c183552e16e3fbd",
+      "asin": "B07ZBCF88X",
+      "category": "garden",
+      "query": "dining tables",
+      "product_category": "Tools & Home Improvement › Lighting & Ceiling Fans › Ceiling Lights › Island Lights",
+      "attribute_count": 5,
+      "option_count": 1
+    },
+    {
+      "task_id": "532c13a8a4e5542b61dc322cc0fddbb2d9aedd2cb3257f5dc2df80f092dcbef3",
+      "asin": "B08KLHMPP9",
+      "category": "garden",
+      "query": "ottomans",
+      "product_category": "Home & Kitchen › Furniture › Accent Furniture › Ottomans",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "9e5bac59cf714b2b1f78c447d196ce673155845fe6cb9c9a7463a4eff2d03c7a",
+      "asin": "B08SHNQJBW",
+      "category": "garden",
+      "query": "baker's racks",
+      "product_category": "Home & Kitchen › Storage & Organization › Racks, Shelves & Drawers › Standing Shelf Units",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "f5f17c510ea2db4f900a5e4f8367599969c9c42fe1200bc1d8bc4def1e670da3",
+      "asin": "B01FT2KXJG",
+      "category": "garden",
+      "query": "floor lamps",
+      "product_category": "Tools & Home Improvement › Lighting & Ceiling Fans › Lamps & Shades › Floor Lamps",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "cfe8191bf0f2007da6f1086f7ba0fe3673a600a8ed8ebf11651c1e9199b260ee",
+      "asin": "B095SWN6C3",
+      "category": "garden",
+      "query": "sconces",
+      "product_category": "Tools & Home Improvement › Lighting & Ceiling Fans › Wall Lights › Vanity Lights",
+      "attribute_count": 5,
+      "option_count": 0
+    },
+    {
+      "task_id": "456ed486a635b3ce81ab4006edfcbc9672b9196cc35bab322d54865a91fc664f",
+      "asin": "B07SXLVPF3",
+      "category": "garden",
+      "query": "mattresses",
+      "product_category": "Home & Kitchen › Furniture › Bedroom Furniture › Mattresses & Box Springs › Mattresses",
+      "attribute_count": 7,
+      "option_count": 1
+    },
+    {
+      "task_id": "d9c9b91e74776a6a85427f4c18b8ea2b9958cfd8f76cedba8287f0aa7ae75c92",
+      "asin": "B003I567W4",
+      "category": "grocery",
+      "query": "pantry staples",
+      "product_category": "Grocery & Gourmet Food › Snacks & Sweets › Snack Foods › Crackers › Flatbread",
+      "attribute_count": 2,
+      "option_count": 2
+    },
+    {
+      "task_id": "100153ae802fe491128dac00357f12dda2f4b0e26b2ed72a92f8b40bdc2bff12",
+      "asin": "B097DSB79F",
+      "category": "grocery",
+      "query": "meat snacks",
+      "product_category": "Grocery & Gourmet Food › Frozen › Pizza › Meat",
+      "attribute_count": 3,
+      "option_count": 2
+    },
+    {
+      "task_id": "4a9c61b3016751ba102fc726adb3d406c7f4b04da5ab87c8e62d5b2d2e1b70b8",
+      "asin": "B09LM3H2F5",
+      "category": "grocery",
+      "query": "candy & chocolate",
+      "product_category": "Grocery & Gourmet Food › Snacks & Sweets › Candy & Chocolate › Candy & Chocolate Gifts",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "510b58a6a5816413f496aaeb64444bd2299c27a089b9133b4a8ca208bf637d76",
+      "asin": "B084GWS59P",
+      "category": "grocery",
+      "query": "meat substitutes",
+      "product_category": "Grocery & Gourmet Food › Meat Substitutes › Hot Dogs, Links & Sausages",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "bdc2718e2a6e5bca2fe2736a326a5eae354f148e97005a0f04fb4bc4c6c8c412",
+      "asin": "B085RRL27J",
+      "category": "grocery",
+      "query": "wasabi peas",
+      "product_category": "Grocery & Gourmet Food › Snacks & Sweets › Snack Foods › Puffed Snacks",
+      "attribute_count": 6,
+      "option_count": 2
+    },
+    {
+      "task_id": "08078b3c969c319f9e7ddaba01ed81d9358de83563409a2421ec215f06b98177",
+      "asin": "B07TVMCK3F",
+      "category": "grocery",
+      "query": "toothpicks",
+      "product_category": "Grocery & Gourmet Food › Pantry Staples › Cooking & Baking › Frosting, Icing & Decorations › Cupcake Toppers",
+      "attribute_count": 3,
+      "option_count": 0
+    },
+    {
+      "task_id": "59c246c5ba75f03b529809531c9652d99a5e689dc01cd8972cb721fc4784085a",
+      "asin": "B07FYPSNH8",
+      "category": "grocery",
+      "query": "beverages",
+      "product_category": "Grocery & Gourmet Food › Beverages › Bottled Beverages, Water & Drink Mixes › Meal Replacement & Protein Drinks › Protein Drinks",
+      "attribute_count": 10,
+      "option_count": 0
+    },
+    {
+      "task_id": "a851381a144f4d29bdd292a660797ed077c4167d8618005823f4b282875412c3",
+      "asin": "B08BPTT8MX",
+      "category": "grocery",
+      "query": "food & beverage gifts",
+      "product_category": "Baby Products › Feeding › Baby Foods › Beverages › Nutritional Shakes",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "83457461d6e40cc60003a87080b445a6a62f25a06a9309d86f873ff6d0758661",
+      "asin": "B015PWVRPO",
+      "category": "grocery",
+      "query": "dried fruits & raisins",
+      "product_category": "Grocery & Gourmet Food › Produce › Dried Fruits & Vegetables › Dried Fruits › Dried Dates",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "0dd5e1df460829f5d1546870f86ef90427ed01d9f4f1e7b740004393ed8ab69d",
+      "asin": "B07HYF111T",
+      "category": "grocery",
+      "query": "granola & nutrition bars",
+      "product_category": "Grocery & Gourmet Food › Deli & Prepared Foods",
+      "attribute_count": 7,
+      "option_count": 1
+    },
+    {
+      "task_id": "32369fb132602b0c3aaf7c86ce3e853b7df6a67949d2846e79ba7af7ce2959b3",
+      "asin": "B097F54DT8",
+      "category": "grocery",
+      "query": "fresh meal kits",
+      "product_category": "Sports & Outdoors › Outdoor Recreation",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "161274940329802cc681e4caf6c3a13ba1852a767e0c94c895376d27877ee7e6",
+      "asin": "B00N6Y8ORI",
+      "category": "grocery",
+      "query": "frozen",
+      "product_category": "Grocery & Gourmet Food › Frozen › Vegetables › Mixed Vegetables",
+      "attribute_count": 5,
+      "option_count": 0
+    },
+    {
+      "task_id": "3d6305c4d91c8a38e737ed9461fa4b54a388af461d04ad48e2aa921b4607e272",
+      "asin": "B07F1JDWJP",
+      "category": "grocery",
+      "query": "milks & creams",
+      "product_category": "Grocery & Gourmet Food › Pantry Staples › Cooking & Baking › Syrups, Sugars & Sweeteners › Sugar Substitutes › Stevia",
+      "attribute_count": 2,
+      "option_count": 1
+    },
+    {
+      "task_id": "a192a77494431829447da81a4d72634b5cd05246fa7131414ec9fa90815e2320",
+      "asin": "B09NX4RGK7",
+      "category": "grocery",
+      "query": "meat & seafood",
+      "product_category": "Grocery & Gourmet Food › Meat Substitutes",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "50279484815e2fb3588738880b906d6ed213490526fa1c110d6112701ec578c9",
+      "asin": "B09DBYG4XD",
+      "category": "grocery",
+      "query": "snack food gifts",
+      "product_category": "Grocery & Gourmet Food › Food & Beverage Gifts › Snack Gifts",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "ae4ac229e7c223ec2252bbccbef1ddf0137eb69878f1b36cea1c798191923de7",
+      "asin": "B08LQZ5BRC",
+      "category": "grocery",
+      "query": "breakfast foods",
+      "product_category": "Grocery & Gourmet Food › Snacks & Sweets › Snack Foods › Bars › High Protein",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "40997c7849664696ea2c81c28acc40c77a8f599707f46b62ba357b7e18a2dce8",
+      "asin": "B08P28NXH3",
+      "category": "grocery",
+      "query": "puffed snacks",
+      "product_category": "Grocery & Gourmet Food › Snacks & Sweets › Snack Foods › Puffed Snacks",
+      "attribute_count": 7,
+      "option_count": 1
+    },
+    {
+      "task_id": "f6e15661b0cdc72a0a790a3df90172f47efbc2f30233eb43a4a33a87aeb228a0",
+      "asin": "B086VP8Q9T",
+      "category": "grocery",
+      "query": "meat & seafood",
+      "product_category": "",
+      "attribute_count": 4,
+      "option_count": 1
+    },
+    {
+      "task_id": "17fa4a07927748320427e608f3f3757f73dd7d347bd3f278fed5c1705568883a",
+      "asin": "B00CQ7PQYU",
+      "category": "grocery",
+      "query": "cream cheeses",
+      "product_category": "Grocery & Gourmet Food › Pantry Staples › Canned, Jarred & Packaged Foods › Vegetables › Mushrooms",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "114a9ae6da2f8261b7cf2a2f28c5cfae656e5343045563986c18238e7342a4ad",
+      "asin": "B01N37FSYX",
+      "category": "grocery",
+      "query": "cheeses",
+      "product_category": "Grocery & Gourmet Food › Pantry Staples › Sauces, Gravies & Marinades › Sauces › Italian › Pesto",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "99d19e1d74da5c11574c3fe857a2fdb1959b713e55d62adf78f42febd1726fd8",
+      "asin": "B004PCJTR4",
+      "category": "grocery",
+      "query": "meat substitutes",
+      "product_category": "Grocery & Gourmet Food › Snacks & Sweets › Snack Foods › Meat Snacks › Jerky",
+      "attribute_count": 3,
+      "option_count": 1
+    },
+    {
+      "task_id": "1671e252fa9322041c5f4c350dea946bccb80ed8db2feb8b6a6b98c24cce0f6e",
+      "asin": "B00B04344Y",
+      "category": "grocery",
+      "query": "deli & prepared foods",
+      "product_category": "Grocery & Gourmet Food › Pantry Staples › Cooking & Baking › Pie & Pastry Fillings",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "29bf62b691a237c648e7b4cb5ccb1b656315fffb11c09ad363ed6bef12f44904",
+      "asin": "B07XRDD75B",
+      "category": "grocery",
+      "query": "breakfast foods",
+      "product_category": "Grocery & Gourmet Food › Breakfast Foods › Cereals › Muesli",
+      "attribute_count": 4,
+      "option_count": 0
+    },
+    {
+      "task_id": "52b7b2d6cd5f78407abb793eed1fca82ecea026be143083ebc478b6ffa9604a9",
+      "asin": "B00HWHS3ZS",
+      "category": "grocery",
+      "query": "applesauce & fruit cups",
+      "product_category": "Grocery & Gourmet Food › Snacks & Sweets › Snack Foods › Applesauce & Fruit Cups › Applesauce",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "7b8ccc2aeb1eb1e2a1dc1c679b68dc02ea7a8f12f9b2641e5dc92690d1eaed4d",
+      "asin": "B002C56QX6",
+      "category": "grocery",
+      "query": "snack crackers",
+      "product_category": "Grocery & Gourmet Food › Snacks & Sweets › Snack Foods › Rice Cakes, Chips & Crackers › Crackers",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "9d32a42fc61b089f3c86a1f7a29027fa8980937265d1dc6323a121cb037469cd",
+      "asin": "B08W2XSDST",
+      "category": "grocery",
+      "query": "puffed snacks",
+      "product_category": "Grocery & Gourmet Food › Pantry Staples › Cooking & Baking › Marshmallows",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "31255dd11a597bcc6e15eaa9301299b1a341b83564eb888a5b72ace37afceb32",
+      "asin": "B09PNJC838",
+      "category": "grocery",
+      "query": "toothpicks",
+      "product_category": "Grocery & Gourmet Food › Pantry Staples › Cooking & Baking › Frosting, Icing & Decorations › Cupcake Toppers",
+      "attribute_count": 2,
+      "option_count": 0
+    },
+    {
+      "task_id": "a6de824e1c24ac8726b2e23d2e5ac3c5178492b7429c2beb9eb76f4938d31094",
+      "asin": "B000YG3DWC",
+      "category": "grocery",
+      "query": "meat substitutes",
+      "product_category": "Grocery & Gourmet Food › Frozen › Meals & Entrees",
+      "attribute_count": 2,
+      "option_count": 0
+    }
+  ],
+  "diversity": {
+    "category_counts": {
+      "beauty": 28,
+      "electronics": 28,
+      "fashion": 28,
+      "garden": 28,
+      "grocery": 28
+    },
+    "distinct_products": 140,
+    "distinct_queries": 123,
+    "distinct_product_categories": 126,
+    "attribute_counts": {
+      "2": 47,
+      "3": 33,
+      "4": 31,
+      "5": 8,
+      "6": 8,
+      "7": 8,
+      "8": 2,
+      "9": 1,
+      "10": 1,
+      "15": 1
+    },
+    "option_counts": {
+      "0": 55,
+      "1": 49,
+      "2": 29,
+      "3": 7
+    }
+  }
+}

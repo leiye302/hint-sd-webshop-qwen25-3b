@@ -1,0 +1,57 @@
+{
+  "commit": "29dcb12a55d8fc17ba6ae03fd0a69048f43051f3",
+  "assets_lock_sha256": "f8313d36b83df707e2f44b85fd2a07aa765ad82e3ee9cc9f26620e92e34cc81a",
+  "task_split_sha256": "6055ef05de812132425060ad959d11bd6ca1cbe40a94f9a195f9f0647ae9547c",
+  "validation_manifest_sha256": "706adb889929acc45bafd52fc144cd160b85ee7f752adf7b6dad8699f8c5ce4a",
+  "hint_sd": {
+    "repository": "https://github.com/wgcyeo/HINT-SD.git",
+    "commit": "bc95b44192b06328a88773dbf3b345fa1c499093",
+    "files": {
+      "src/train/trainer.py": "23e36f63a4a93e4b8d577f05cb165a36b98db766d45df30501e2a73bb00f6121",
+      "src/train/self_distillation.py": "036defffa3d3f1a7abc39a6f95200d09f3f5940ebbde804fcd0ce6831b8f54d6",
+      "src/train/train.py": "802e50fe950e240b14dada8993085de8a79039cc1506b625eb466ba04b5eeaa4",
+      "src/train/arguments.py": "f7770c86e9c95d96d271a618d45904f7a3db906bf8e2ebf34e16e8566954cc3e",
+      "src/train/rollout.py": "5a9f608825adbedf84fcff46ab36b35e29c57f5886f2f70d58676baa10cb94cf",
+      "src/train/bfcl_rollout.py": "f0da3cba10fe6c86431ddb90cfb4ae562b098810dd0d9242cdbfcf5cf7b296cc",
+      "src/train/appworld_feedback.py": "3feeaf25908aeb08cd9e5320a00739de51f2821eea916798bab645276b248ec5",
+      "src/train/bfcl_feedback.py": "217ac0874079b2c61fb76177bdd80a34efe36bab351bfc9f22d20c564b89ded3",
+      "env/integration/bfcl/env_service_backend.py": "c6a6662a130fa87ab80aa094f0dc528bbc70468c084628199bcbb0e000c83bcb",
+      "pyproject.toml": "3da0a3ae64c92af0cccb0b44ece6e3b314bc8622537767d9607b79ef82e8076c",
+      "uv.lock": "110d77e12f33f1ac163fc39bb3b98ac0253ae510f3eaa00cf552a7dd6adbf306",
+      "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  },
+  "sdar_environment": {
+    "repository": "https://github.com/ZJU-REAL/SDAR.git",
+    "commit": "29dcb12a55d8fc17ba6ae03fd0a69048f43051f3",
+    "files": {
+      "agent_system/environments/env_manager.py": "6294aef97cf12775222b8c189273f990065ecca13d1308650311ebe0ab1c64f5",
+      "agent_system/environments/env_package/webshop/__init__.py": "5ade0a7accede023f5ace95107c108d43e35c31b0897c4040243bd3794220265",
+      "agent_system/environments/env_package/webshop/projection.py": "0808d4643459acf2a4c496eab3fc8735025c440f28cc517066355a1f5fbc048f",
+      "agent_system/environments/env_package/webshop/webshop/conftest.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "agent_system/environments/env_package/webshop/webshop/run_web_agent_text_env.py": "1745b135e64f79cd9acb9c830852b12fccb96d4b4365c9a8233c5335394aa4dd",
+      "agent_system/environments/env_package/webshop/webshop/search_engine/convert_product_file_format.py": "27541423b531fd6c348b3d20522ecea7fbf2d724d864921d13691fa284ad4e53",
+      "agent_system/environments/env_package/webshop/webshop/search_engine/lucene_searcher.py": "905be2081ffa4c9f93e1b106de4c012ac9677c8043dd264ae92a68dc2a287fa0",
+      "agent_system/environments/env_package/webshop/webshop/search_engine/run_indexing.sh": "96f0a2323bf6fda0eb0549fd66265c0cb05f988813f8181110761dc43b88ea0c",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/app.py": "f9393af973fd2d0343c8b68e89572e6139ebc8d6a2309a145c554a80284e81cb",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/attributes/annotate.py": "f64f3f8be3af15794821506014b97c1abc75424973ab9b06d4af4b9c2dec4a45",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/attributes/generate_attrs.py": "b6e079d6765966e1c244e7de31d444c17423d912d24f0ef08844c32daa2efe3a",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/engine/engine.py": "86bb46b593d3672da3a9fbe216f1d34a34a7a915f7ad31a101bdcc7f2a62ca4b",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/engine/goal.py": "9703c8583244e2041182eb14856186b998145ab16ce2ba9aef8cb680877c8ed5",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/engine/normalize.py": "1962113ac9e209a636d4f181b2c70544bbea59b03adca9847e48287158d794fb",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/envs/__init__.py": "7cdf100d019fd715d605ff0cd0f0d3d4285d7f7b2dbe4e4634e9a1266ab5e854",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/envs/web_agent_site_env.py": "7b3a43c0250ef2215e2ac1e613ebafbcfbea053a24fcbb773541dc634f124981",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/envs/web_agent_text_env.py": "a2a2cfe3e7ef493857ba68c28fd6d12ec012e0f8cb31a050112f6466084e3f55",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/models/__init__.py": "06a57f9b9ff18e749dff8b9bbb69cf78819a7515fb79a414ba2c3e2ee27ed626",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/models/models.py": "c6edfa60c4c8522c1a0ce35233166d2b824ba3184541223905f7d11a21ac9f7a",
+      "agent_system/environments/env_package/webshop/webshop/web_agent_site/utils.py": "bdd6df3b869cf3fe028169add3611d1b811ae663ae4f79520617c26b20614970",
+      "agent_system/environments/prompts/webshop.py": "c7411b8a8fe1f8d587a5585a57ce3ae85ab87bbd7a021f2e39c03f97e214b738",
+      "agent_system/memory/memory.py": "d9940bf9d49442f76667b80aff7e80b7c93f37bef015b06641e60229bb3f0d9c",
+      "agent_system/multi_turn_rollout/rollout_loop.py": "23b9f35d8eb2cd87effd763286aefe6868d19473a4266b94e51c3390c92d035b",
+      "agent_system/reward_manager/episode.py": "f9a71d8ccba625f2dc218594a3f9edaa2894306a1accc62cd19832ef4c521428",
+      "agent_system/environments/env_package/webshop/envs.py": "370962cf9abc5c0796ca3a9f228811ee109aadbb1c12d9d044fc3ac4318d7e33"
+    }
+  }
+}

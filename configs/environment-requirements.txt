@@ -1,0 +1,23 @@
+# Separate CPU WebShop runtime, Python3.10/Java11. Install torch==2.8.0 CPU separately.
+numpy==1.26.4
+beautifulsoup4==4.11.1
+cleantext==1.1.4
+Flask==2.1.2
+Werkzeug==2.1.0
+gym==0.24.0
+pyserini==0.17.0
+pyjnius==1.6.1
+faiss-cpu==1.7.4
+rank-bm25==0.2.2
+requests==2.32.5
+rich==12.4.4
+selenium==4.2.0
+spacy==3.7.2
+cymem==2.0.8
+preshed==3.0.9
+murmurhash==1.0.10
+srsly==2.4.8
+thinc==8.2.5
+thefuzz==0.19.0
+tqdm==4.64.0
+pydantic==2.11.7

@@ -1,0 +1,35 @@
+{
+  "source": "Original WebShop dataset, public mirrors cross-checked byte-for-byte; original Drive links unavailable anonymously.",
+  "mirrors": [
+    {
+      "repository": "HongbangYuan/webshop",
+      "revision": "0129d4a81dbdb827e76afd20a1e2c38b61098613"
+    },
+    {
+      "repository": "YWZBrandon/webshop-data",
+      "revision": "ce990fff5aee388db2706f07820c578ab68e0453"
+    }
+  ],
+  "files": {
+    "items_shuffle_1000.json": {
+      "bytes": 4467013,
+      "sha256": "30a4765c3a327af72d9a9a95a6b2486d516f0fa1d3ecd83681901ce82a21b269"
+    },
+    "items_ins_v2_1000.json": {
+      "bytes": 147099,
+      "sha256": "f88a36314a397b53b3d9c3fa5878e5f7b26d35019a51ec83fbedeca61a948f6f"
+    },
+    "items_human_ins.json": {
+      "bytes": 5137548,
+      "sha256": "cf78667548a71786e1d9049c24b802e48e1084ad4bb021cae56ce1f6d96954a3"
+    }
+  },
+  "nlp": {
+    "package": "en_core_web_sm",
+    "version": "3.7.1",
+    "filename": "en_core_web_sm-3.7.1-py3-none-any.whl",
+    "url": "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl",
+    "bytes": 12803381,
+    "sha256": "86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889"
+  }
+}
