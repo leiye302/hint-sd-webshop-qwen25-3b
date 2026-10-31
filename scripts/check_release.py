@@ -6,6 +6,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED = {
+    'src/evaluation_contract.py', 'configs/evaluation_protocol.json',
+    'docs/SHARED_EVALUATION140.md', 'tests/test_shared_evaluation.py',
     'hint_webshop/checkpoint_io.py',
     '.env.example',
     '.gitattributes',

@@ -69,6 +69,8 @@ def verify_tasks(root=None):
                         ('task_split.json', 'task_split_sha256'), ('assets.json', 'assets_lock_sha256')]:
         if sha(ROOT / 'configs' / name) != load('upstream.json')[field]:
             raise ValueError('Shared WebShop task/asset manifest changed: ' + name)
+    from evaluation_contract import verify_shared_evaluation
+    verify_shared_evaluation(ROOT)
     task_rows()
 
 

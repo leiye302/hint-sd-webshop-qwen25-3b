@@ -1,5 +1,8 @@
 # WebShop HINT-SD — Qwen2.5-3B, 4×A100 80GB
 
+> Shared cross-method evaluation: [exact common140 tasks and unchanged sampling](docs/SHARED_EVALUATION140.md).
+
+
 独立的 **Qwen2.5-3B-Instruct＋原版HINT-SD-Multi** 环境适配仓库。
 使用 [HINT-SD官方源码](https://github.com/wgcyeo/HINT-SD)，固定提交
 bc95b44192b06328a88773dbf3b345fa1c499093。上游loss、选中步骤mask、反向传播、

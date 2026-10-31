@@ -12,6 +12,8 @@ def digest(value):
 
 
 def manifest():
+    from evaluation_contract import verify_shared_evaluation
+    verify_shared_evaluation(ROOT)
     value = load('fixed_validation140.json')
     split = split_manifest()
     expected = [{'worker': i, 'task_id': key,
